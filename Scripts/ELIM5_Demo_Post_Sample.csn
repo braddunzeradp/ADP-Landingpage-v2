@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ELIM5 Demo Post Sample" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[function postdemo(){
+		  var link = "https://run.adpdemos.com/?token=";
+		var emailentered = $('#Email').val(); 
+         formData = {email: emailentered, company: "adp", demo: "16",lead_origin:"info.adp.com"};
+            $.ajax({
+              method: 'post',
+              url: "https://admin.adpworkforcenowdemo.com/api/log",
+              data: JSON.stringify(formData),
+			dataType: "json",
+  			contentType : "application/json",
+              success: function(response){
+                console.log(response);
+				$('#demolink').attr('href',link + response).removeClass('hide-group'); 
+				$('#formbody').addClass("hide-group");
+				$('#submit-msg').removeClass("hide-group");  
+              },
+              error: function(error){
+                console.log(error);
+              }
+            })
+		
+		
+	}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

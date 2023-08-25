@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Single-Quote-bluebg" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="container-fluid no-gutter bg-blue-10 overflow-hidden">
+    <section class="row center-block testimonials quote-card" >
+      <div class="row center-block js-carousel-testimonials">
+        <div class="quote-container">
+          <p class="title-brow">MEET OUR CLIENTS</p>
+          <p class="quote">Payroll is so quick it saves me a ton of time. Setting up new employees is also obscenely simple. Everything from tax withholdings to direct deposits are done in 2 minutes, max. Such a time-saver that I don't need to hire an HR person or additional accounting person.</p>
+          <p class="mb-15"><img alt="" style="max-width: 272px; opacity: 1;" src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="20" width="160" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/shared/testimonial_rating_g2crowd.jpg" class="center-block lazy" /></p>
+          
+          <p> <span class="client">Daniel Ledbetter</span> <span class="client-title">Managing Director</span>, <span class="client-company">Palmetto School of Career Development</span> </p>
+          <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="446" width="448" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/resource-hub/img-hero-case-study-generic.png" class="client-img lazy" /></div>
+      </div>
+      <div class="ext-mt text-center px-gutter">
+        <h3>Join the 1,000,000+ businesses that trust ADP</h3>
+        <a class="btn" href="https://www.adp.com/resources/what-others-say.aspx">See Case Studies</a></div>
+    </section>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

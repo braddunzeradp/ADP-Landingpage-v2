@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Email - Validate to Business Email" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ <div class="form-group field-email">
+    <label for="Email" class="label-email">Business Email</label>
+<input id="Email2" name="Email" class="input-email" type="email" autocomplete="email" value=""   maxlength="255" placeholder="" data-val-required="Please enter Business Email." data-val-regex="Please enter a valid business email address." data-val-regex-pattern="(?&lt;FirstPart&gt;^[A-Za-z0-9._%+-]+@)(?&lt;SecondPart&gt;(?!126\.|139\.|163\.|21cn\.|263\.|aol\.|att\.|foxmail\.|gmail\.|hotmail\.|icloud\.|live\.|msn\.|outlook\.|qq\.|sina\.|sohu\.|yahoo\.|yandex\.|yeah\.|ymail\.)(?&lt;AllowedDomains&gt;[A-Za-z0-9.-]+\.[A-Za-z]{2,17}))$" data-val="true" />
+<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span> 
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

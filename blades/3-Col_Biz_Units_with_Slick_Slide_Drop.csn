@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col Biz Units with Slick Slide Drop" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START 3-Col Biz Unit Slick Slide -->
+    <div class="container-fluid no-gutter bg-blue-10 overflow-hidden">
+    <section class="row center-block text-center">
+        <h2 class="blade-title ext-mb">No matter your business size, we've got you covered</h2>
+        <!--<p class="size22 width890 center-block px-gutter ext-mb">You may only need easy-to-use payroll software, or you may be looking for solutions to make other aspects of HR simpler. See what our solutions can do for you.</p>-->
+        <div class="row center-block card-listing info-btns js-carousel-cards height-card-img-80 slick-initialized slick-slider accessible-slick" role="region" aria-label="carousel" tabindex="-1">
+        <div class="slick-list draggable">
+            <div class="slick-track" style="opacity: 1; width: 1281px; transform: translate3d(0px, 0px, 0px);">
+            <div class="slick-slide slick-current slick-active" data-slick-index="0" role="group" aria-label="slide 1" style="width: 427px;">
+                <div>
+                <div class="col-xs-12 col-sm-4 info-toggle" style="width: 100%; display: inline-block;">
+                    <div class="card"> <img alt="" src="https://www.adp.com/-/media/adp/reskin2022/images/home/img-small-biz.svg" height="73" width="80" class="card-img lazy" style="opacity: 1;">
+                    <div class="card-body">
+                        <p class="title-brow">1-49 Employees</p>
+                        <h3 class="size24">Small Business</h3>
+                        <p>Faster, easier, more reliable solutions designed to help you focus on what matters.</p>
+                      </div>
+                    <div class="card-btns"> <a href="https://www.adp.com/what-we-offer/payroll/payroll-for-1-49-employees.aspx"><span class="hide-text">Small business</span> Payroll</a> <a href="https://www.adp.com/what-we-offer/hr-services/hr-for-1-49-employees.aspx"><span class="hide-text">Small business</span> HR Services</a> <a href="https://www.adp.com/what-we-offer/time-and-attendance.aspx">Time &amp; Attendance</a> <a href="https://www.adp.com/what-we-offer/hr-outsourcing-and-peo/professional-employer-organization.aspx">Professional Employer Organization (PEO)</a> <a href="https://www.adp.com/what-we-offer/benefits/retirement.aspx">Retirement</a> <a href="https://www.adp.com/what-we-offer/benefits/group-health-insurance.aspx">Insurance</a> <a href="https://www.adp.com/what-we-offer/benefits/business-insurance/workers-compensation.aspx">Workers Comp</a> <a href="https://www.adp.com/what-we-offer/products/adp-smartcompliance/small-business-tax-credits.aspx">Business Tax Credits</a> </div>
+                    <a href="#" class="toggle-cta">See more <span class="hide-text">small business solutions</span></a> <a href="#" class="toggle-cta open">See less <span class="hide-text">small business solutions</span></a> </div>
+                  </div>
+              </div>
+              </div>
+            <div class="slick-slide slick-active" data-slick-index="1" role="group" aria-label="slide 2" style="width: 427px;">
+                <div>
+                <div class="col-xs-12 col-sm-4 info-toggle" style="width: 100%; display: inline-block;">
+                    <div class="card"> <img alt="" src="https://www.adp.com/-/media/adp/reskin2022/images/home/img-mid-biz.svg" height="77" width="80" class="card-img lazy" style="opacity: 1;">
+                    <div class="card-body">
+                        <p class="title-brow purple-40">50-999 Employees</p>
+                        <h3 class="size24">Midsized Business</h3>
+                        <p>Superior HR tech and services designed to help you manage your entire workforce with ease.</p>
+                      </div>
+                    <div class="card-btns"> <a href="https://www.adp.com/what-we-offer/payroll/payroll-for-50-1000-plus-employees.aspx"><span class="hide-text">Midsized business</span> Payroll</a> <a href="https://www.adp.com/what-we-offer/hr-services.aspx">HR Services</a> <a href="https://www.adp.com/what-we-offer/time-and-attendance/workforce-management.aspx">Workforce Management</a> <a href="https://www.adp.com/what-we-offer/hr-outsourcing-and-peo/professional-employer-organization.aspx">Professional Employer Organization (PEO)</a> <a href="https://www.adp.com/what-we-offer/benefits/retirement.aspx">Retirement</a> <a href="https://www.adp.com/what-we-offer/benefits/benefits-administration.aspx">Benefits Administration</a> <a href="https://www.adp.com/what-we-offer/benefits/group-health-insurance.aspx">Insurance</a> <a href="https://www.adp.com/what-we-offer/products/adp-smartcompliance.aspx">Standalone Compliance Services</a> </div>
+                    <a href="#" class="toggle-cta">See more <span class="hide-text">midsized business solutions</span></a> <a href="#" class="toggle-cta open">See less <span class="hide-text">midsized business solutions</span></a> </div>
+                  </div>
+              </div>
+              </div>
+            <div class="slick-slide slick-active" data-slick-index="2" role="group" aria-label="slide 3" style="width: 427px;">
+                <div>
+                <div class="col-xs-12 col-sm-4 info-toggle" style="width: 100%; display: inline-block;">
+                    <div class="card"> <img alt="" src="https://www.adp.com/-/media/adp/reskin2022/images/home/img-large-biz.svg" height="75" width="80" class="card-img lazy" style="opacity: 1;">
+                    <div class="card-body">
+                        <p class="title-brow brown-40">1000+ Employees</p>
+                        <h3 class="size24">Large Business</h3>
+                        <p>Adaptable HCM designed to drive people performance and keep ahead of continual change.</p>
+                      </div>
+                    <div class="card-btns"> <a href="https://www.adp.com/what-we-offer/payroll/payroll-for-50-1000-plus-employees.aspx"><span class="hide-text">Large business</span> Payroll</a> <a href="https://www.adp.com/what-we-offer/hr-services.aspx">HR Services</a> <a href="https://www.adp.com/what-we-offer/time-and-attendance/workforce-management.aspx">Workforce Management</a> <a href="https://www.adp.com/what-we-offer/benefits/retirement.aspx">Retirement</a> <a href="https://www.adp.com/what-we-offer/benefits/benefits-administration.aspx">Benefits Administration</a> <a href="https://www.adp.com/what-we-offer/benefits/group-health-insurance.aspx">Insurance</a> <a href="https://www.adp.com/what-we-offer/talent/talent-acquisition.aspx">Talent Acquisition</a> <a href="https://www.adp.com/what-we-offer/products/adp-smartcompliance.aspx">Standalone Compliance Services</a> </div>
+                    <a href="#" class="toggle-cta">See more <span class="hide-text">large business solutions</span></a> <a href="#" class="toggle-cta open">See less <span class="hide-text">large business solutions</span></a> </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      </section>
+  </div>
+<!--START 3-Col Biz Unit Slick Slide -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

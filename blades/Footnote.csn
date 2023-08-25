@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footnote" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="container-fluid note bg-grey-10" >
+    <section class="row center-block notes" >
+      <ol>
+        <li>ZipRecruiter is a registered trademark of ZipRecruiter, Inc.</li>
+        <li>Legal services are provided by Upnetic Legal Services, a third-party provider</li>
+      </ol>
+    </section>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

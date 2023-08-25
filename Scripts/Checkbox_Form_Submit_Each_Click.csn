@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Checkbox Form Submit Each Click" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* post form via ajax and display message */	
+$(function(){
+  $('#c-group input').on('change',function() {
+    //$("#submit-btn").attr("disabled", true).val(btnwait);
+	  var iamchecked;
+	  if ($(this).is(':checked')) {
+		  iamchecked = this;
+	  }
+			event.preventDefault();
+          formData = $("#adp-form").serialize();
+            $.ajax({
+              method: 'post',
+              url: $("#adp-form").attr('action'),
+              data: formData,
+              success: function(response){
+                console.log(iamchecked);
+				 $(iamchecked).prop("disabled",true);
+              },
+              error: function(error){
+                console.log(error);
+              }
+            })
+			},
+		);
+      });]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

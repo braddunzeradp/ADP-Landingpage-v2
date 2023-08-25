@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footer Nav Link Option" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--<nav class="row center-block" role="navigation">
+    <div class="col-xs-12 col-sm-3">
+      <ul>
+        <li><a href="/contact-us/customer-service.aspx">Contact Us</a></li>
+        <li><a href="tel:8002255237">Talk to Sales &mdash; <span class="blue-ui taubsans-medium">800-225-5237</span></a></li>
+        <li><a href="/contact-us/customer-service.aspx">Get Support</a></li>
+        <li><a href="https://login.adp.com/welcome"><span class="blue-ui taubsans-medium">Sign In</span></a></li>
+      </ul>
+    </div>-->
+    <!--<div class="col-xs-6 col-sm-2">
+      <ul>
+        <li> <a href="/what-we-offer.aspx" >What We Offer</a>
+          <ul>
+            <li><a href="/what-we-offer/payroll.aspx" >Payroll</a></li>
+            <li><a href="/what-we-offer/time-and-attendance.aspx" >Time and Attendance</a></li>
+            <li><a href="/what-we-offer/talent.aspx" >Talent</a></li>
+            <li><a href="/what-we-offer/benefits.aspx" >Benefits</a></li>
+            <li><a href="/what-we-offer/hr-services.aspx" >HR Services</a></li>
+            <li><a href="/what-we-offer/hr-outsourcing-and-peo.aspx" >HR Outsourcing and PEO</a></li>
+            <li><a href="/what-we-offer/integrations.aspx" >Integrations</a></li>
+            <li><a href="/what-we-offer/marketplace.aspx" >App Marketplace</a></li>
+            <li><a href="/what-we-offer/products.aspx" >Products by Name</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

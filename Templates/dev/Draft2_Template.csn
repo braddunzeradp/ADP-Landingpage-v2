@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Draft2_Template" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!DOCTYPE html>
+<html lang="en"><head>
+<!-- START DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ -->
+<script type="text/javascript">
+  // Date and Time Using 24-Hour Time Configuration:
+   var redirectDate = new Date("July 01, 2028 01:00:00").getTime();
+   var currentDate = new Date().getTime();
+   if(currentDate >= redirectDate){
+ // Redirect Location:    
+    window.location.href="https://info.adp.com/page-expired";}         
+</script>
+<!-- STOP DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ --> 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5W69JCM');</script>
+<!-- End Google Tag Manager -->   	
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noimageindex, nosnippet, noarchive">
+<link rel="preload" href="https://www.adp.com/static/project/adp/fonts/TaubSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.adp.com/static/project/adp/fonts/TaubSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.adp.com/static/project/adp/fonts/TaubSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://www.adp.com/static/project/adp/fonts/TaubSans-RegularItalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://images.adpinfo.com/Web/ADPEmployerServices/{183ef724-cefb-423b-8168-b1175366a697}_css-main-base.css" as="style" />
+<link rel="stylesheet" href="https://images.adpinfo.com/Web/ADPEmployerServices/{183ef724-cefb-423b-8168-b1175366a697}_css-main-base.css" media="all" />
+<link rel="stylesheet" href="https://images.adpinfo.com/Web/ADPEmployerServices/{7c921b19-8f95-4419-bf2f-097fd906c20b}_css-landingpage-custom.css" media="all" />
+	
+	
+<link rel="shortcut icon" href="https://www.adp.com/-/media/adp2018/ui/favicon.ico">
+<script defer src="https://images.adpinfo.com/Web/ADPEmployerServices/{52cd0b05-f8ae-4d80-9927-877d10669418}_adp-js-vendor.js"></script>
+<script defer src="https://images.adpinfo.com/Web/ADPEmployerServices/{06c98854-fc63-41f0-8e84-8d61a77fa581}_adp-js-main-base.js"></script>
+<script defer src="https://images.adpinfo.com/Web/ADPEmployerServices/{e4d79e0e-305f-4507-b362-e8d8f392cc5a}_js-landingpage-custom.js"></script>
+<script defer src="https://images.adpinfo.com/Web/ADPEmployerServices/{abb231e2-7282-4e3b-9061-a16285a8b25f}_js-form-controls.js"></script>
+<script src="https://images.adpinfo.com/Web/ADPEmployerServices/{99d3f17b-064e-4147-a529-41559a5ff2aa}_privacy-statement-en.js"></script>	
+	
+	
+
+
+<link href="https://www.adp.com/-/media/adp2022/ui/touch-icons/ios_adplogo_120x120_en.png" rel="apple-touch-icon" />
+<link href="https://www.adp.com/-/media/adp2022/ui/touch-icons/ios_adplogo_152x152_en.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="https://www.adp.com/-/media/adp2022/ui/touch-icons/ios_adplogo_167x167_en.png" rel="apple-touch-icon" sizes="167x167" />
+<link href="https://www.adp.com/-/media/adp2022/ui/touch-icons/ios_adplogo_180x180_en.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="https://www.adp.com/-/media/adp2022/ui/touch-icons/android_adplogo_192x192_en.png" rel="icon" sizes="192x192" />
+<link href="https://www.adp.com/-/media/adp2022/ui/touch-icons/android_adplogo_128x128_en.png" rel="icon" sizes="128x128" />
+
+
+<title> | ADP</title>
+</head>
+<body>
+ <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W69JCM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<header class="global-nav">
+  <div class="nav-wrap"> 
+	  <a class="skip" href="#main-content">Skip to main content</a>
+    <div class="nav-main row">
+      <div class="mobile-nav visible-xs-flex">
+        <div class="mobile-nav-left">
+			<!-- START Hamburger uncomment below -->
+			
+				 <!--<button class="hamburger visible-xs-inline" type="button"> 
+				  <span class="hamburger-box">
+						  <span class="hamburger-inner"></span>
+					 </span> 
+				  </button>-->
+			
+			<!-- START Hamburger uncomment above -->
+        </div>
+		
+        <div class="mobile-nav-right"> 
+			<a class="btn btn-xss scroll" href="#form-top">Contact Us</a>
+		 </div>
+      </div>
+      <a href="https://www.adp.com" class="logo">
+		  <img alt="ADP logo" src="https://www.adp.com/-/media/adp/redesign2018/ui/logo-adp-fy19.svg" class="skiplazy" >
+		</a>
+		
+		<!-- START Navigation -->
+		<!--<nav class="main-links" role="navigation" aria-label="ADP">
+		  <ul itemscope="" itemtype="https://www.schema.org/SiteNavigationElement">
+			<li itemprop="name" class="how-we-deffer"> <a href="#" class="level-1 plus">Nav 1</a> </li>
+			<li itemprop="name" class="how-we-deffer"> <a href="#" class="level-1 plus">Nav 2</a> </li>
+			<li itemprop="name" class="how-we-deffer"> <a href="#" class="level-1 plus">Nav 2</a> </li>
+		 </ul>
+		</nav>-->
+		<!-- END  Navigation -->
+		
+		
+      <div class="controls">
+        <div class="utility"> 
+			<!--<a class="nav-support" href="#">Link in nav</a> -->
+			<a href="#form-top" class="btn btn-xs hidden-xs scroll">Contact Us</a>
+			
+			</div>
+      </div>
+    </div>
+	<!--START lower nav area with phone number -->  
+    <!--<div class="nav-contact" >
+      <div class="row center-block "> <span>Get a quote <strong>800-225-5237</strong></span> <a href="#" class="contact-cta trigger-modal" >Start Quote</a> </div>
+    </div>-->
+	  <!--END lower nav area with phone number -->
+  </div>
+</header>
+<!-- jump to from short cut tab -->	
+
+<div id="ph-body">
+<div id="main-content"></div>	
+	<!-- ////////////////////////////// Add Blades below here ///////////////////////////////// -->
+
+
+
+	
+	
+	
+	
+	
+<!-- ////////////////////////////// Add Blades above here ///////////////////////////////// -->
+<!-- ////////////////////////////// END Main  ///////////////////////////////// -->
+</div>
+<!-- END Main Area -->	
+<!--START footer -->
+<footer id="footer-static" role="contentinfo" >
+	<!--//////////// START Eloqua Footer Include -->
+<span elqid="6951" elqtype="Section" class="remove-absolute" style="display: block"></span>
+<!--<span elqid="6981" elqtype="Section" class="remove-absolute" style="display: block"></span>-->
+<!--<span elqid="6982" elqtype="Section" class="remove-absolute" style="display: block"></span>-->	
+	<!--/////////// END Eloqua Footer Include -->
+</footer>
+<!--END footer -->	
+
+<!-- ///////////////////// JQUERY 3-6-0 do not remove //////////////////////// -->
+<script src="https://images.adpinfo.com/Web/ADPEmployerServices/{5258115a-792b-4f76-a3f4-c38050c7c174}_adp-js-jquery-3-6-0-min.js"></script>
+<!-- ///////////////////// JQUERY 3-6-0 do not remove //////////////////////// -->
+
+	
+
+	
+
+<script type="text/javascript">
+
+	/*define the type of Canadian Compliance form to present */
+	var canform;
+	 canform = "implied";//default CA values of all forms"	
+	 //canform = "explicit";//used to display message with box not required
+	 //canform = "explicitnobox";//displays just message and will be explicit
+	 //canform = "explicityboxreq";//must check box to proceed 	
+	
+	/* START LOAD SCRIPTS */
+	$(window).on('load',function() {
+		/*trigger the logic to evaluate the form country field which drives how the form reacts*/
+	$('#Country').change();
+			/* Sample rule and messaging need to be in load function*/
+
+			/*Validate the address input to not have PO box*/	
+			//$("#Address").rules("add",{nopobox:true});
+
+			/*Validation for checkbox group with at least one being required*/	
+			//$("#c-group .checkbox-group").each(function () {$(this).rules('add', {required: true,minlength: 1});});	
+
+
+			/* Require specifc input field to be required */	
+			//$("#Generic_Answer5").rules("add",{required: true});	
+			
+	});
+	/* END LOAD SCRIPTS */
+	
+	
+
+	
+//This control can be used for any language and location swap needs. 
+//It requires that a form Country field be located on the page it can be a hidden field
+$('#Country').on('change',function() {	
+var plang = $('html').attr("lang");/*set lang variable*/	
+var cntry = $('#Country').val(); /*get the value of the country field*/
+var loclang = plang + cntry;/*new variable of combined lang and location*/
+	if (loclang == 'enUnited States'){$("#submit-btn").val("Submit");}
+	else if(loclang == 'enCanada'){$("#submit-btn").val("Submit");}
+	else if(loclang == 'frCanada'){$("#submit-btn").val("Soumettre");}
+	else if(plang == 'fr'){$("#submit-btn").val("Soumettre");}
+	else {$("#submit-btn").val("Submit");}	
+});
+/* post form via ajax and display message */	
+$(function(){
+  $(document).on('submit', '#adp-form', function(event){
+    $("#submit-btn").attr("disabled", true).val(btnwait);
+			event.preventDefault();
+          formData = $(this).serialize();
+            $.ajax({
+              method: 'post',
+              url: $(this).attr('action'),
+              data: formData,
+              success: function(response){
+                console.log(response);
+				$('#contact-form').addClass("hide-group");
+				$('#submit-msg').removeClass("hide-group");
+				 // to redirect uncomment the below and comment out the two lines above
+				//window.location = "https://info.adp.com/";   
+              },
+              error: function(error){
+                console.log(error);
+              }
+            })
+			},
+		);
+      });
+	
+	
+$(document).ready(function() {
+	
+/* END custom url parameter extraction */
+		//var xyz123 = $.urlParam('xyz123');
+		//if(xyz123.length > 0) { $('#Generic_Answer1').val(xyz123); }	
+/* END custom url parameter extraction */
+	
+	
+
+});
+	
+</script>
+</body>
+</html>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

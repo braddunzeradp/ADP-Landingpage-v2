@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="DemandBase Event Listener Push into Form" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[//START Push DB into hidden fields	
+	window.addEventListener('load', function() {
+    var demandbaseEvent = findEvent('Demandbase_Loaded');
+      if (demandbaseEvent) {       
+          if(isp === false){
+          $('#Company').val(company_name);
+      }
+      else{
+          //
+      }
+    }
+    return null; // Key not found
+});
+//END]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

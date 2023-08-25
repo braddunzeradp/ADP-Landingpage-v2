@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Form Post with Digital Convert Conditional" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*/////////////////////// START Form Post /////////////////////////// */	
+$(function(){
+  $(document).on('submit', '#adp-form', function(event){
+    $("#submit-btn").attr("disabled", true).val(btnwait);
+	var leadsource = $("#Lead_Source").val();  
+			event.preventDefault();
+          formData = $(this).serialize();
+            $.ajax({
+              method: 'post',
+              url: $(this).attr('action'),
+              data: formData,
+              success: function(response){
+                //console.log(response);
+				$('#contact-form').addClass("hide-group");
+				$('#submit-msg').removeClass("hide-group");
+				  
+				 // to redirect uncomment the below and comment out the two lines above
+				//window.location = "https://info.adp.com/";
+				
+				//fires off the convertion tags
+				  digitalConvert();
+				  
+				  
+				  
+                //the variable 'possibleSubstrings' is part of the external JS file
+                var containsSubstring = false;
+                $.each(possibleSubstrings, function(index, substring) {
+                    if (leadsource.includes(substring)) {
+                        containsSubstring = true;
+                        digitalConvert();//fires off the conversion tags
+                        return false; // Exit the loop since we found a match
+                    }
+                });  
+              },
+              error: function(error){
+                console.log(error);
+              }
+            })
+			},
+		);
+      });
+/*/////////////////////// END Form Post /////////////////////////// */	
+	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

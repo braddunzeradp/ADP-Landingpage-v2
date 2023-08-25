@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Blue-Back-4Col-Icons" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--BLADE START - 4 Card Blue -->
+  <div class="container-fluid no-gutter bg-blue-10">
+    <section class="row center-block text-center anchor-wrap height-card-img-80" >
+      <h2 class="blade-title">Pay your people with ease and confidence</h2>
+      <p class="mb-20 px-gutter">When you choose ADP, you choose a superior payroll platform built for the way you work.</p>
+      <ul class="row center-block">
+        <li>
+          <div class="card"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="81" width="80" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/payroll/pay_your_people_icn_1_payroll.svg" class="card-img lazy" />
+            <div class="card-body">
+              <p class="taubsans-medium">Payroll processing that&rsquo;s faster and easier &mdash; locally and globally</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="81" width="80" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/payroll/pay_your_people_icn_2_employee.svg" class="card-img lazy" />
+            <div class="card-body">
+              <p class="taubsans-medium">Employee and manager self-service — online or with our mobile app</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="81" width="80" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/payroll/pay_your_people_icn_3_247.svg" class="card-img lazy" />
+            <div class="card-body">
+              <p class="taubsans-medium">Certified, experienced payroll professionals available 24/7</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="81" width="80" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/payroll/pay_your_people_icn_4_simple.svg" class="card-img lazy" />
+            <div class="card-body">
+              <p class="taubsans-medium">Simple integration with business software, time tracking, HR systems and ERPs</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+	<!--BLADE END - 4 Card Blue -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

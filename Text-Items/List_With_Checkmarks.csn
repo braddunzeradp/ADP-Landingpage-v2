@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="List With Checkmarks" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="checks blue">
+    <li><strong>24/7 live support</strong> (Gusto offers 7a-4p PT)</li>
+    <li><strong>Advanced State Unemployment Insurance (SUI) management tools</strong> (claim responses, benefit payments review, best practices consulting)</li>
+    <li><strong>Native suite of time tracking tools</strong>, such as scheduling and physical time clocks</li>
+    <li><strong>Dedicated new client onboarding support</strong> for small businesses of all sizes</li>
+    <li><strong>Convenient mobile app</strong> for payroll and HR (Gusto only offers mobile access via web/browser)</li>
+    <li><strong>Same day ACH</strong></li>
+    <li><strong>Two-day processing cycles</strong> for all clients (without assigned direct deposit limits)</li>
+    <li><strong>SUI payroll tax rates updated automatically</strong></li>
+    <li><strong>Customer support</strong> (option) from payroll provider’s Apple® iOS app</li>
+    <li><strong>Partner app connectors to over 30 leading Point of Sale (POS) solutions</strong></li>
+    <li><strong>Single invoice billing</strong> that combines ADP payroll and complementary partner services</li>
+    <li><strong>Over 70 years of payroll experience</strong></li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

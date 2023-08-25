@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-TextLeft-VideoRight" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Text Left Video Right -->
+	<div class="container-fluid no-gutter bg-grey-10">
+      <section class="row center-block two-column">
+		<div class="col-xs-12 col-sm-7 col-md-8 text-main">
+		<p class="h2-style" role="heading" aria-level="2">Automated employee time tracking allows you to get more done</p>
+		<p class="mb-12">Keeping track of time manually? Automated time and attendance software can reduce manual — and often error-prone — data entry and improve payroll accuracy. It can also help you:</p>
+		<ul class="bullets">
+			<li>Increase productivity by ensuring the right people are where you need them every day</li>
+			<li>Track time simply by enabling employees to use their computer or phone</li>
+			<li>Assert more control over how time is tracked with a shared device, a <a href="https://www.adp.com/what-we-offer/time-and-attendance/employee-time-clocks.aspx">time clock</a>&nbsp;or the ADP® Kiosk</li>
+			<li>Create, publish and manage schedules online</li>
+			<li>Handle time-off requests, approvals and vacations</li>
+		</ul>
+		<p>The best part? It integrates with your ADP <a href="https://www.adp.com/what-we-offer/payroll/payroll-software.aspx">payroll software</a> and other ADP solutions, which means:</p>
+		<ul class="bullets">
+			<li>Data flows automatically between HR, payroll and time</li>
+			<li>People only have one username and password to remember</li>
+			<li>Time, pay, benefits and other information can be accessed from the web or a mobile app</li>
+		</ul>
+		</div>
+		<div class="col-xs-12 col-sm-5 col-md-4 img-main">
+		<a href="https://www.youtube-nocookie.com/embed/g--kAAnDKt4?amp;autoplay=1&amp;rel=0&amp;hd=1&amp;enablejsapi=1" title="" class="video-thumb litymodal " target="_blank">
+			<img alt="ADP Timekeeping Plus Scheduling" src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/tab3vidtimekeeping-plus-scheduling2932x2xvideo.png" height="330" width="586" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/tab3vidtimekeeping-plus-scheduling2932x2xvideo.png" class="caption-img img-responsive mt-xs-40">
+			</a>
+		<div class="caption">
+		<p class="title">ADP<sup>®</sup> Timekeeping Plus Scheduling for small businesses</p>
+		<p>ADP® Timekeeping Plus Scheduling is a cloud-based time tracking and scheduling tool that helps control costs, improve compliance and enhance productivity.</p>
+		</div>
+		</div> 
+	</section>
+</div>
+<!--END Text Left Video Right -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

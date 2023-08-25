@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Jquery-3-6-0" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<script src="https://images.adpinfo.com/Web/ADPEmployerServices/{5258115a-792b-4f76-a3f4-c38050c7c174}_adp-js-jquery-3-6-0-min.js"></script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

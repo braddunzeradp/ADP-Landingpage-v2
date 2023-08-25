@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CA FR Footer HTML" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="row center-block">
+    <div class="col-xs-12 col-sm-3 text-xs-center">
+      <p><a href="https://www.adp.ca" class="logo"><img alt="logo" src="https://www.adp.com/-/media/adp/redesign2018/ui/logo-adp-fy19.svg" class="skiplazy" height="32" width="70" /></a></p>
+      
+      <p class="mb-0"><a href="https://www.adp.com/worldwide-locations.aspx">Établissements à l’échelle mondiale</a></p>
+    </div>
+    <div class="col-xs-12 col-sm-9 text-xs-center">
+      <ul class="sm-links">
+        <li><a class="sm-icn sm-icn-facebook" href="https://www.facebook.com/AutomaticDataProcessing/" rel="nofollow" target="_blank"><span>ADP Facebook Page</span></a></li>
+        <li><a class="sm-icn sm-icn-twitter" href="https://twitter.com/adp" rel="nofollow" target="_blank"><span>ADP Twitter Page</span></a></li>
+        <li><a class="sm-icn sm-icn-youtube" href="https://www.youtube.com/user/adp" rel="nofollow" target="_blank"><span>ADP YouTube Channel</span></a></li>
+        <li><a class="sm-icn sm-icn-linkedin" href="https://www.linkedin.com/company/adp" rel="nofollow" target="_blank"><span>ADP LinkedIn Page</span></a></li>
+      </ul>
+      <ul class="legal-links">
+        <li><a href="https://www.adp.ca/fr-ca/conditions.aspx">Conditions</a></li>
+        <li><a href="https://www.adp.ca/fr-ca/confidentialite.aspx">Confidentialité</a></li>
+        <li class="d-xs-block"><a href="https://www.adp.ca/fr-ca/a-propos-adp/engagement-anti-pourriel.aspx">Engagement anti-pourriel</a></li>
+        <li class="d-xs-block"><a href="https://www.adp.ca/fr-ca/accessibilite.aspx">Accessibilité</a></li>
+      </ul>
+      <p class="copyright">ADP et le logo ADP sont des marques de commerce déposées d’ADP, Inc. © Compagnie ADP Canada,
+2023.  TOUS DROITS RÉSERVÉS.</p>
+    </div>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

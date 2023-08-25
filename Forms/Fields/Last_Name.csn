@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Last Name" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[			<div class="form-group field-name ">
+               <label id="lbllname" for="Last_Name" class="label-name">Last Name</label>
+              <input id="Last_Name" name="Last_Name" class="input-name" type="text" value="" placeholder="" autocomplete="family-name" data-val-required="Please enter Last Name." data-val="true" />
+				<span class="field-validation-valid" data-valmsg-for="Last_Name" data-valmsg-replace="true"></span>
+            </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

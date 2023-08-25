@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Offer-StartQuote" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--BLADE START - Offer Banner -->
+  <div class="container-fluid banner-cta pt-30" >
+    <section class="row center-block" >
+      <div class="col-xs-12 text-main text-center">
+        <div class="copy">
+          <h3>Get 3 months FREE*</h3>
+          <p class="size18">When you sign up for small business payroll processing</p>
+          <p class="btn-row">
+            <input type="number" min="1" placeholder="# Employees" name="ctaEmployees" id="ctaEmployees" />
+            <a class="btn btn-xs cta-employee-trigger trigger-modal" href="#">Start Quote</a> <span>or</span> <a class="btn btn-outline btn-xs mt-xs-0" href="https://www.adp.com/what-we-offer/payroll/payroll-for-1-49-employees/payroll-packages.aspx">Compare Packages</a> </p>
+          <a href="https://www.adp.com/terms/3-month-offer-terms.aspx" class="popup-offer terms">*See Terms &amp; Conditions</a> </div>
+      </div>
+    </section>
+  </div>
+	<!--BLADE END - Offer Banner -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

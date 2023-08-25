@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Conditionally Show Hide Field based on value of drop down" description="This must appear at the bottom of the page after the Jquery script load" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Conditionally expose an object based on the value of a drop down changing its value -->
+	<script type="text/javascript">
+		/*watch for the change event of the field that will determine if the other field shows */
+		$('#Generic_Answer3').on('change',function() {
+			/*create a varible to hold the value of the object*/
+			var fieldlval = $("#Generic_Answer3").val();
+			/*if the field value = 3 then remove the class hide-group from the hidden field and enable the field*/
+				if (fieldlval == '3'){
+					/* show the field targing the div around the field */
+				$("#generic2").removeClass("hide-group");
+					/*enable the field */
+				$("#generic2 input").prop("disabled",false);
+				}
+			else {
+				/*hide the field */
+				$("#generic2").addClass("hide-group");
+				/*disable the field */
+				$("#generic2 input").prop("disabled",true);
+				}
+		});
+	</script>
+<!-- END Conditionally expose an object based on the value of a drop down changing its value -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

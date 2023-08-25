@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Variable Merge" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var	fldfname = "<span class=eloquaemail >Contact_First_Name1</span>";
+var fldlname = "<span class=eloquaemail >Last_Name1</span>";
+var fldttl = "<span class=eloquaemail >Title1</span>";
+var fldco = "<span class=eloquaemail >Account___Contact_record1</span>";
+var fldemail = "<span class=eloquaemail >EmailAddress</span>";
+var fldph = "<span class=eloquaemail >Business_Phone1</span>";
+var fldzip = "<span class=eloquaemail >Zip_Postal</span>";
+var fldee = "<span class=eloquaemail >Number_of_Employees1</span>";
+var fldctry = "<span class=eloquaemail >Country</span>";]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

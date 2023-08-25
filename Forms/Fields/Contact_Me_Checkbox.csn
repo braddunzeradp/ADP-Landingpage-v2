@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Contact_Me Checkbox" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	 	<div class="form-group field-client-center">
+                  <input type="checkbox" id="Contact_Me" name="Contact_Me" class="input-contact" value="Yes" data-val-required="Please check the box to proceed." data-val="false" > 
+                  <label class="" for="Contact_Me">Yes I would like to be contact by ADP </label>
+				<span class="field-validation-valid" data-valmsg-for="Contact_Me" data-valmsg-replace="true"></span>
+		</div>	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

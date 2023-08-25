@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-Large-Cards-BlueBg" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="container-fluid no-gutter bg-blue-10" >
+    <section class="row center-block" >
+      <h2 class="text-center px-15">Payroll services built for a better experience</h2>
+      <p class="text-center ext-mb px-15">Whether your company is big, small or somewhere in between, ADP's <a href="https://www.adp.com/what-we-offer/payroll/payroll-software.aspx">payroll software</a>&nbsp;has you covered.</p>
+      <div class="row center-block card-listing">
+        <div class="col-xs-12 col-sm-6">
+          <div class="card card-promo pb-20">
+            <div class="card-body">
+              <p class="title-brow">Payroll services for 1-49 employees</p>
+              <p class="title">Small Business Payroll</p>
+              <p class="p-style">Get payroll done in just a few clicks (or set it to run automatically), plus taxes filed for you.</p>
+              <ul class="bullets">
+                <li>Automated online payroll that helps avoid costly errors</li>
+                <li>Payroll taxes calculated and paid on your behalf</li>
+                <li>Federal, state, and local compliance support</li>
+                <li>Simple integration with time-tracking and HR</li>
+                <li>Easy-to-use self-service app for employees</li>
+                <li>Expert support when you need it</li>
+              </ul>
+              <p><a class="link-arrow" href="https://www.adp.com/what-we-offer/payroll/payroll-for-1-49-employees.aspx">Learn more</a></p>
+              <p><img alt="" src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="381" width="600" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/payroll/payroll_services_product_small_biz.jpg" class="card-img lazy" /></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="card card-promo pb-20">
+            <div class="card-body">
+              <p class="title-brow">Payroll services for 50&ndash;1,000+ employees</p>
+              <p class="title">Mid- and Large Business Payroll</p>
+              <p class="p-style">Get payroll that's flexible, custom-configured and seamlessly integrated with HR.</p>
+              <ul class="bullets">
+                <li>Fully automated employee data syncing</li>
+                <li>Integration with HR, benefits, talent and more</li>
+                <li>Flexible payment options</li>
+                <li>Scalable levels of service and outsourcing</li>
+                <li>Top-rated mobile app for employees and managers</li>
+                <li>Expert implementation to get up and running quickly</li>
+              </ul>
+              <p><a class="link-arrow" href="https://www.adp.com/what-we-offer/payroll/payroll-for-50-1000-plus-employees.aspx">Learn more</a></p>
+              <p><img alt="" src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="385" width="600" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/payroll/payroll_services_product_md_lg_biz.jpg" class="card-img lazy" /></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

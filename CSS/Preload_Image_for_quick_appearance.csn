@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Preload Image for quick appearance" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* preload the check mark so that it shows up quickly on selection*/
+			body::before {
+			content: url("https://www.adp.com/-/media/adp2022/ui/icn-check-list-blue.svg");
+			position: absolute;
+			top: -9999rem;
+			left: -9999rem;
+			opacity: 0;
+			}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

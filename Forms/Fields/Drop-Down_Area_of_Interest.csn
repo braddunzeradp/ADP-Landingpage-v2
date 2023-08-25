@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Drop-Down Area of Interest" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[			  
+	<!--START Basic Drop Down -->
+			  <div class="form-group field-interest mr-sm">
+              <label id="lblinterest" for="Generic_Answer4" class="label-interest">Area of interest</label>
+              <select id="Generic_Answer4" name="Generic_Answer4" class="select-interest" data-val-required="Please select Area of interest." data-val="true">
+				  <option value="" selected="selected">-- Please Select --</option>
+                  <option value="Payroll">Payroll</option>
+                  <option value="HR services">HR</option>
+                  <option value="Time &amp; Attendance">Time &amp; Attendance</option>
+                  <option value="HCM">HCM</option>
+                  <option value="Global Payroll">Global Payroll</option>
+                  <option value="Talent">Talent</option>
+                </select>
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer4" data-valmsg-replace="true"></span> 
+			  </div>
+			  <!--END Basic Drop Down -->
+			  
+		]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

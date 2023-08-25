@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Radio-Group" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Radio Group-->
+	          <div class="form-group field-client radio-inline mr-sm">
+              	<fieldset id="Fullfillment" >
+                  <legend >How can we help today?</legend>
+                  <label>
+                  <input type="radio" name="Fullfillment" checked value="Quote" data-val-required="Please select how we can help today." data-val="true" />
+                  <span>Quote</span> </label>
+                  <label>
+                  <input type="radio" name="Fullfillment" value="Demo" />
+                  <span>Demo</span> </label>
+                  <label>
+                  <input type="radio" name="Fullfillment"  value="Sales question" />
+                  <span>Sales question</span> </label>
+                  <span class="field-validation-valid" data-valmsg-for="Fullfillment" data-valmsg-replace="true"></span>
+                </fieldset>
+			  </div>
+			  <!--END Radio Group-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

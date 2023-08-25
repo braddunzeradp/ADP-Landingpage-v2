@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Generic Field" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[			   <div class="form-group field-generic mr-sm">
+              <label for="Generic_Answer2" class="label-generic">Generic Answer 2</label>
+              <input id="Generic_Answer2" name="Generic_Answer2" class="input-generic" type="text" maxlength="255" data-val-required="This field is required" data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer2" data-valmsg-replace="true"></span>
+			  </div>	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

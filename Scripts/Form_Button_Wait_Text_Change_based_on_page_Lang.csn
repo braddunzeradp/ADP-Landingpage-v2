@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Form Button Wait Text Change based on page Lang" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	/* START detect page language and update button wait state */
+	var pagelang;/*varible used in defining the page language*/
+	var btnwait;/*variable used for button text*/
+$(document).ready(function() {  
+    pagelang = $('html').attr("lang");/*set lang variable*/
+	if (pagelang == 'en'){
+		btnwait = "Please wait ...";
+	}
+	else if (pagelang == 'fr') {
+		btnwait = "Attendez vous s'il vous plait ...";
+	}
+	else {
+		btnwait = "Please wait ...";
+	}
+	/* END detect page language and update button wait state */
+	
+});	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

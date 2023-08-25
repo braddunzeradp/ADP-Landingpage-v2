@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Tabs-Large" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Large Tab Section-->
+    <div class="container-fluid no-gutter bg-grey-10" >
+    <section class="row center-block">
+        <p class="h2-style text-center px-gutter" role="heading" aria-level="2">Online time and attendance software features and benefits</p>
+        <div class="js-tab-accordian r-tabs tab-loaded">
+        <ul class="r-tabs-nav" role="tablist">
+            <li role="presentation" class="r-tabs-tab r-tabs-state-active" aria-expanded="true"> <a href="#tab-group1-0" aria-controls="tab-group1-0" class="r-tabs-anchor" role="tab" data-toggle="tab"> Manager Insights </a> </li>
+            <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-1" aria-controls="tab-group1-1" class="r-tabs-anchor" role="tab" data-toggle="tab"> Compliance </a> </li>
+            <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-2" aria-controls="tab-group1-2" class="r-tabs-anchor" role="tab" data-toggle="tab"> Cost Control </a> </li>
+            <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-3" aria-controls="tab-group1-3" class="r-tabs-anchor" role="tab" data-toggle="tab"> Schedules that Work </a> </li>
+            <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-4" aria-controls="tab-group1-4" class="r-tabs-anchor" role="tab" data-toggle="tab"> Productivity </a> </li>
+            <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-5" aria-controls="tab-group1-5" class="r-tabs-anchor" role="tab" data-toggle="tab"> Accurate Payroll </a> </li>
+            <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-6" aria-controls="tab-group1-6" class="r-tabs-anchor" role="tab" data-toggle="tab"> Flexibility </a> </li>
+          </ul>
+        <div class="r-tabs-accordion-title r-tabs-state-active" aria-expanded="false"> <a href="#tab-group1-0" class="r-tabs-anchor"> Manager Insights </a></div>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-active" id="tab-group1-0" style="display: block;">
+            <div class="two-column" >
+            <div >
+                <div class="col-xs-12 col-sm-6 col-md-8 text-main">
+                <h2 class="h3-style">Improve supervisor productivity with a manager dashboard</h2>
+                <p>An ADP team dashboard streamlines employee time tracking for you and your managers. From one convenient place, you can quickly:</p>
+                <ul class="bullets">
+                    <li>See who’s on the job or if anyone was late or absent</li>
+                    <li>Access schedules to stay on top of staffing</li>
+                    <li>Monitor hours worked and overtime to help control costs</li>
+                    <li>Track the status of timecards to avoid payroll delays</li>
+                    <li>Quickly navigate to other tools, run reports and more to save time and maximize efficiency</li>
+                  </ul>
+              </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 img-main"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/improve_supervisor_productivity_with_a_manager_dashboard_1x.png" data-heightmissing="" data-widthmissing="" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/improve_supervisor_productivity_with_a_manager_dashboard_1x.png" class="img-responsive mt-xs-40" alt=""> </div>
+              </div>
+          </div>
+          </div>
+        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-1" class="r-tabs-anchor"> Compliance </a></div>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-1" style="display: none;">
+            <div class="two-column">
+            <div class="">
+                <div class="col-xs-12 col-sm-6 col-md-8 text-main">
+                <h3>Manage compliance with wage and hour regulations</h3>
+                <p>Complying with wage regulations and hour rules, such as overtime and meal breaks, is necessary to protect your business from penalties. But relying on managers alone for consistent enforcement and oversight is risky. Alternatively, you can use ADP time and attendance software to help meet compliance requirements and track the data and documents you’ll need in case of an audit.</p>
+                <p>For our ADP Workforce Now® clients, you can add on Compliance on Demand, which lets you consult ADP’s team of experts or share best practices with peers in our online customer community. This service also has a content library full of information on wage and hour compliance at the federal, state and local levels.</p>
+              </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 img-main"> <a href="https://www.youtube-nocookie.com/embed/0qk98LxcNmw?amp;rel=0" title="" class="video-thumb litymodal litymodal" target="_blank"><img alt="View video" src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/time-attendance/workforce-management/compliancetabvideo.jpg" height="340" width="600" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/time-attendance/workforce-management/compliancetabvideo.jpg" class="caption-img img-responsive"></a> </div>
+              </div>
+          </div>
+          </div>
+        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-2" class="r-tabs-anchor"> Cost Control </a></div>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-2" style="display: none;">
+            <div class="two-column">
+            <div class="">
+                <div class="col-xs-12 col-sm-6 col-md-8 text-main">
+                <h2 class="h3-style">Time tracking helps control labor costs</h2>
+                <p>Tracking and monitoring time is an important part of managing your labor costs. And, as you grow, this can become more challenging. With ADP, managing and improving your time and attendance process just got easier.</p>
+                <p>With employee time tracking and payroll reporting from ADP, you can see when people are approaching overtime and visualize the true costs of labor — including temporary staff — and adjust hours as necessary.</p>
+                <p>Our time and attendance software also offers features to help prevent employees from abusing the system and costing you money. For example, facial or finger scanning as a form of identification can stop people from clocking in and out on behalf of others – also known as “buddy punching.”</p>
+                <p>Geo-fencing ensures that those who are using a mobile clocking app are within a certain distance of a physical work location, and geo-pinning can mark precisely where they were when clocking, so you can see location violations.</p>
+              </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 img-main text-center"> <img alt="30 percent" src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/charts-progress30.svg" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/charts-progress30.svg" class="caption-img img-responsive mx-auto">
+                <div class="caption">
+                    <p>You could reduce errors in your time-tracking by nearly 30%*.</p>
+                    <p class="size12">*Total Workforce Management 2013: The State of Time and Attendance, Aberdeen Group, July 2013.</p>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-3" class="r-tabs-anchor"> Schedules that Work </a></div>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-3" style="display: none;">
+            <div class="two-column" id="ADP_c104f842aabb4a5fb2db6fffcf72e0b9" data-source-title="Schedules that Work">
+            <div class="">
+                <div class="col-xs-12 col-sm-6 col-md-8 text-main">
+                <h4 class="h3-style">Manage employee scheduling efficiently</h4>
+                <p>ADP time and attendance solutions make it easier and faster to create schedules that work for everyone. You can spot trends and correct gaps in coverage before they negatively impact your environment and employees have access to self-service features for improved productivity and engagement.</p>
+                <p>Available* scheduling features include:</p>
+                <ul class="bullets">
+                    <li><strong>Shift scheduling</strong> brings your <a href="/resources/articles-and-insights/articles/e/employee-scheduling.aspx">employee schedules</a>&nbsp;online, and provides many conveniences for managers to quickly create and assign shifts to workers, including the ability to post open shifts for the staff to claim.</li>
+                    <li><strong>Collaborative scheduling</strong> permits employees to swap shifts with or request coverage from  coworkers, and people can communicate when they can or cannot work in advance. – all from a mobile device.</li>
+                    <li><strong>Configurable work rules</strong>, such as maximum daily hours and maximum consecutive days, help simplify compliance with work policies.</li>
+                    <li><strong>Real-time cost calculations</strong> allow you to see the cost of your schedules as you create them, so you can keep an eye on your budget.</li>
+                    <li><strong>Skill-based scheduling</strong> helps you match people to the job based on required skills, licenses, certifications, languages and training.</li>
+                  </ul>
+                <p class="note">*Availability of scheduling features varies by time and attendance product</p>
+              </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 img-main"> <a href="https://www.youtube-nocookie.com/embed/qax9lB5YJUc?rel=0" class="video-thumb litymodal" target="_blank"><img alt="" src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/time-attendance/wfn-video-screen.jpg" height="161" width="293" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/time-attendance/wfn-video-screen.jpg" class="img-responsive"></a> </div>
+              </div>
+          </div>
+          </div>
+        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-4" class="r-tabs-anchor"> Productivity </a></div>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-4" style="display: none;">
+            <div class="two-column" id="ADP_bbbf5186d0cf48e89b34554b9f52e077" data-source-title="Productivity" data-source-id="023fe9e6-6eba-458d-bb48-49f40a5f0a1d">
+            <div class="">
+                <div class="col-xs-12 col-sm-6 col-md-8 text-main">
+                <h2 class="h3-style">Online timekeeping increases productivity</h2>
+                <p>When you use ADP’s time and attendance solutions, staff enter their hours worked using a smart timeclock, a web timesheet, a kiosk app on a shared tablet or a mobile app on a personal mobile phone. Breaks, PTO, holiday and other time are also collected directly from the employee.</p>
+                <p>The system then automatically calculates the totals and sends them to payroll, leaving you and your managers with little to do but monitor for exceptions, like missed punches, and make the necessary corrections. As a result of not having to go through every timecard you have more time to spend improving business operations and supporting customers.</p>
+              </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 img-main"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/tab5productivity-_455px_1x.jpg" data-heightmissing="" data-widthmissing="" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/tab5productivity-_455px_1x.jpg" class="img-responsive mt-xs-40" alt=""> </div>
+              </div>
+          </div>
+          </div>
+        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-5" class="r-tabs-anchor"> Accurate Payroll </a></div>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-5" style="display: none;">
+            <div class="two-column">
+            <div class="">
+                <div class="col-xs-12 col-sm-6 col-md-8 text-main">
+                <h2 class="h3-style">Time tracking software improves payroll accuracy</h2>
+                <p>Don’t leave the accuracy and reliability of your company payroll to chance. ADP’s complete “punch-to-paycheck” experience delivers fast, easy time tracking, scheduling and attendance management. Using it, you can instantly calculate hourly totals based on your payroll policies, including overtime, and avoid costly mistakes. Time data flows directly to payroll to avoid manual, and potentially error-prone, data entry.</p>
+              </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 img-main"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/tab6accurate-payroll-_455px_1x.jpg" data-heightmissing="" data-widthmissing="" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/tab6accurate-payroll-_455px_1x.jpg" class="img-responsive mt-xs-40" alt=""> </div>
+              </div>
+          </div>
+          </div>
+        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-6" class="r-tabs-anchor"> Flexibility </a></div>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-6" style="display: none;">
+            <div class="two-column" >
+            <div class="">
+                <div class="col-xs-12 col-sm-6 col-md-8 text-main">
+                <h2 class="h3-style">Employee time tracking with flexibility</h2>
+                <p>Give your employees and supervisors the ability to complete time-sensitive tasks quickly, easily and in a way that works best for them. ADP’s time and attendance solutions are built with self-service in mind and are compatible with smart time clocks, computers and mobile devices. We also offer an all-in-one time collection kiosk and a kiosk app, both of which are designed for use with ADP payroll solutions and backed by ADP support.</p>
+              </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 img-main"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/tab7flexibility-_455px_1x.jpg" height="256" width="455" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/tab7flexibility-_455px_1x.jpg" class="img-responsive mt-xs-40" alt=""> </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      </section>
+  </div>
+	<!--END Large Tab Section-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

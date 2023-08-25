@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Tabs-Small" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- BLADE START - Tabs -->
+  <div class="container-fluid no-gutter compare-pkgs bg-grey-10 no-card pb-md-30">
+    <section class="row center-block compact collapsed" >
+      <h2 class="px-gutter text-center"><span id="compare" class="anchor" ></span>Get the right online payroll services for your business</h2>
+      <p class="size22 px-gutter text-center ext-mb">See packages for your business size</p>
+      <div class="js-tab-accordian r-tabs ">
+        <ul class="r-tabs-nav" role="tablist">
+          <li role="presentation" class="r-tabs-tab r-tabs-state-active"> <a href="#tab-0" aria-controls="00000000-0000-0000-0000-000000000000" class="r-tabs-anchor" role="tab" data-toggle="tab"> 1-49 employees </a> </li>
+          <li role="presentation" class="r-tabs-tab r-tabs-state-default"> <a href="#tab-1" aria-controls="00000000-0000-0000-0000-000000000000" class="r-tabs-anchor" role="tab" data-toggle="tab"> 50+ employees </a> </li>
+			
+        </ul>
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-active" id="tab-0">
+          <div class="comparison-chart js-chart-carousel px-sm-gutter px-md-0">
+            <div class="pkg-col red">
+              <div class="pkg-header">
+                <p class="heading"><strong>Essential</strong> Payroll</p>
+                <div class="pkg-info">
+                  <p>Perfect for startups and established companies that simply need payroll, taxes, and compliance they can trust.</p>
+                </div>
+                <a href="#" class="link-arrow trigger-modal" data-package="RUN Essential Payroll" aria-label="Get pricing for Essential payroll package">Get pricing</a> </div>
+            </div>
+            <div class="pkg-col purple featured"> <span>Most Popular</span>
+              <div class="pkg-header">
+                <p class="heading"><strong>Enhanced</strong> Payroll</p>
+                <div class="pkg-info">
+                  <p>Adds powerful capabilities on top of payroll, such as garnishment payment service, SUI management, background checks, and job posting through ZipRecruiter&reg;<sup>1</sup>.</p>
+                </div>
+                <a href="#" class="link-arrow trigger-modal" data-package="RUN Enhanced Payroll" aria-label="Get pricint for Enhanced payroll package">Get pricing</a> </div>
+            </div>
+            <div class="pkg-col pink">
+              <div class="pkg-header">
+                <p class="heading"><strong>Complete</strong> Payroll &amp; HR+</p>
+                <div class="pkg-info">
+                  <p>Includes ADP’s latest HR tools such as live HR support, employee handbook wizard, proactive compliance alerts, HR guidance and forms, and a job description wizard.</p>
+                </div>
+                <a class="link-arrow trigger-modal" data-package="RUN Complete Payroll and HR Plus" aria-label="Get pricing for Complete payroll and HR plus package">Get pricing</a> </div>
+            </div>
+            <div class="pkg-col brown">
+              <div class="pkg-header">
+                <p class="heading"><strong>HR Pro</strong> Payroll &amp; HR</p>
+                <div class="pkg-info">
+                  <p>Offers a comprehensive suite of HR tools such as a proactive HR support team, employer/employee training, business advice, and legal assistance from Upnetic Legal Services&reg;<sup>2</sup>.</p>
+                </div>
+                <a class="link-arrow trigger-modal" data-package="RUN HR Pro Payroll and HR">Get pricing</a> </div>
+            </div>
+          </div>
+          <div class="text-center px-gutter ext-mt"><a class="btn2 btn-xs" href="https://www.adp.com/what-we-offer/payroll/payroll-for-1-49-employees/payroll-packages.aspx">Compare Packages</a></div>
+        </div>
+		  
+        <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-1">
+				<style>
+				@media screen and (min-width: 768px) {
+				.wfn-chart-tab .pkg-col {
+				width: 33% !important;
+				}
+				}
+				</style>
+          <div class="comparison-chart js-chart-carousel px-sm-gutter px-md-0 wfn-chart-tab" style="border-bottom: none">
+            <div class="pkg-col red">
+              <div class="pkg-header">
+                <p class="heading"><strong>Essential</strong></p>
+                <div class="pkg-info">
+                  <p><strong>Streamline payroll and HR</strong> with an all-in-one suite.</p>
+                </div>
+                <a href="#" class="link-arrow trigger-modal" data-package="Essential" aria-label="Get started with Essential package">Get started</a> </div>
+            </div>
+            <div class="pkg-col purple">
+              <div class="pkg-header">
+                <p class="heading"><strong>Enhanced</strong></p>
+                <div class="pkg-info">
+                  <p>For everything included in our Essential package, <strong>plus simplify benefits administration</strong> with time-saving technology.</p>
+                </div>
+                <a href="#" class="link-arrow trigger-modal" data-package="Enhanced" aria-label="Get started with Enhanced package">Get started</a> </div>
+            </div>
+            <div class="pkg-col brown featured"> <span>Most Popular</span>
+              <div class="pkg-header">
+                <p class="heading"><strong>Premium</strong></p>
+                <div class="pkg-info">
+                  <p>For everything included in our Enhanced package <strong>plus automate time tracking</strong> with Workforce Management.</p>
+                </div>
+                <a href="#" class="link-arrow trigger-modal" data-package="Premium" aria-label="Get started with Premium package">Get started</a> </div>
+            </div>
+          </div>
+          <div class="text-center px-gutter ext-mt"><a class="btn2 btn-xs" href="https://www.adp.com/what-we-offer/products/adp-workforce-now/compare-options.aspx">Compare Packages</a></div>
+        </div>
+      </div>
+    </section>
+  </div>
+	<!-- BLADE END - Tabs -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

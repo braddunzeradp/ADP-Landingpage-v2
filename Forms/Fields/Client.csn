@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Client" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!--START ADP Client -->
+	  <div class="form-group field-client-center">
+	  <fieldset >
+		<legend id="lblclient" >Are you a current ADP client?</legend>
+		<label>
+		  <input type="radio" name="ADP_Client" value="Yes" data-val-required="Please enter Are you a current ADP client?." data-val="true" />
+		  <span id="lblyes">Yes</span> </label>
+		<label>
+		  <input type="radio" name="ADP_Client" checked value="No" />
+		  <span id="lblno">No</span></label>
+		<span class="field-validation-valid" data-valmsg-for="ADP_Client" data-valmsg-replace="true"></span>
+	  </fieldset>
+	</div>
+	<!--END ADP Client -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Carousel - Step Through" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Step Through Carousel-->	
+<div class="container-fluid no-gutter pb-100 bg-blue-10" >
+ <section class="row center-block" >
+<h2 class="text-center px-gutter pb-60">Payroll that’s easy and accurate — period</h2>
+<!-- START Workforce Now Payroll demo - DEMO ORIGIN IS WITHIN RESOURCES -->
+  <div class="row center-block">
+    <div class="js-carousel-nav demo-steps">
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Overview</span>
+      </div>
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Payroll</span>
+      </div>
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Employees</span>
+      </div>
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Deductions</span>
+      </div>
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Reports</span>
+      </div>
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Accuracy</span>
+      </div>
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Dashboard</span>
+      </div>
+      <div class="step-item">
+        <div class="step-circle"></div>
+        <span>Self-service</span>
+      </div>
+    </div>
+    <div class="js-carousel-demo">
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+            <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_overview_tabs_2x_737w_en.png">
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_overview_tabs_2x_737w_en.png" class="lazy" alt=""/>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>Say hello to easier, faster payroll.</h4>
+          <p>ADP Workforce Now&reg; takes the guesswork and paperwork out of payroll and tax filing.</p>
+          <a href="#" class="btn btn-demo">Start demo</a>
+        </div>
+      </div>
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+          <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/7622/wfn_5_payroll_tabs_2x_737w_en.png">
+          <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/7622/wfn_5_payroll_tabs_2x_737w_en.png" class="lazy" alt="" />
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>Run payroll in a few simple steps</h4>
+          <p>Access key information at a glance, and run payroll with ease.</p>
+          <a href="#" class="btn btn-demo">Add employees</a>
+        </div>
+      </div>
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+           <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_employees_tabs_2x_737w_en.png">
+           <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_employees_tabs_2x_737w_en.png" class="lazy" alt=""/>
+           </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>Add employees with ease.</h4>
+          <p>Automatically add new hires from your applicant tracking tool &mdash; no need for manual data entry.</p>
+          <a href="#" class="btn btn-demo">Add deductions</a>
+        </div>
+      </div>
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+           <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_deductions_tabs_2x_737w_en.png">
+           <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_deductions_tabs_2x_737w_en.png" class="lazy" alt=""/>
+           </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>Manage deductions with confidence.</h4>
+          <p>Easily set up and sync deductions to payroll so they're accurate for federal, state and local taxes.</p>
+          <a href="#" class="btn btn-demo">Run reports</a>
+        </div>
+      </div>
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+            <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_reports_tabs_2x_737w_en.png">
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_reports_tabs_2x_737w_en.png" class="lazy" alt=""/>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>Access clear and simple reporting.</h4>
+          <p>Understand topline information at a glance and easily drill down into the details.</p>
+          <a class="btn btn-demo" href="#">Improve accuracy</a>
+        </div>
+      </div>
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+            <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/7622/wfn_6_accuracy_tabs_2x_737w_en.png">
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/7622/wfn_6_accuracy_tabs_2x_737w_en.png" class="lazy" alt=""/>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>Improve accuracy with error detection.</h4>
+          <p>Avoid costly errors and frustrated employees with tools that flag potential issues before they happen.</p>
+          <a class="btn btn-demo" href="#">See data in one place</a>
+        </div>
+      </div>
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+            <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_hrmgmt_edit_tabs_2x_737w_en.png">
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_hrmgmt_edit_tabs_2x_737w_en.png" class="lazy" alt=""/>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>See all employee data with one dashboard.</h4>
+          <p>See full employee pay data and history in one simple view.</p>
+          <a class="btn btn-demo" href="#">Empower employees</a>
+        </div>
+      </div>
+      <div class="demo-slide">
+        <div class="col-xs-12 col-sm-8">
+            <a class="enlarge-thumb litymodal" href="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_selfservice_tabs_2x_737w_en.png">
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" height="811" width="1474" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/wfn_selfservice_tabs_2x_737w_en.png" class="lazy" alt=""/>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h4>Equip employees with self&ndash;service.</h4>
+          <p>Easily access pay, time, benefits and more via desktop or mobile app &mdash; loved by more than 18 million mobile users.</p>
+          <a class="btn trigger-modal" href="#">Schedule a custom demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- Steps -->
+  </div>
+<!-- END Workforce Now Payroll demo -->                </section>
+        </div>
+<!--END Step Through Carousel-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

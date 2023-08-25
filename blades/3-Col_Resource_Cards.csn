@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col Resource Cards" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Resource Cards-->
+<div class="container-fluid resource-listing bg-grey-10" >
+<section class="row center-block">
+<p class="title-brow text-center">RESOURCES FOR YOU</p>
+<h2 class="text-center ext-mb blade-title">Resources to support your decision</h2>									
+<div class="row center-block"><div class="col-xs-12 col-sm-4 " >
+    <div class="card  rh2 card-report" data-primarysegment="midlarge">
+        <img src="https://www.adp.com/-/media/adp/resourcehub/rh2/images/analyst-reports/thumb/g2-mid-market-report-spring23-thumbnail.jpg" alt="Mid-market grid report for Payroll, Spring 2022" height="201" width="400" data-lazy="https://www.adp.com/-/media/adp/resourcehub/rh2/images/analyst-reports/thumb/g2-mid-market-report-spring23-thumbnail.jpg" class="card-img">
+       <div class="card-body" data-primarysegment="midlarge">
+            <p class="card-type">analyst report</p>
+            <h2 class="title"> Clients name ADP a Leader in Payroll: G2 Summer 2023 </h2>
+        </div>
+        <div class="card-footer">
+            <div class="card-cta">
+                <a class="link-arrow" aria-label="Read now: Clients name ADP a Leader in Payroll: G2 Summer 2023" href="https://www.adp.com/resources/what-others-say/analyst-reports/clients-name-adp-a-leader-in-payroll-software.aspx?referrer={214DDC01-CB02-4047-ACA1-3323FCFC9712}">Read now</a>
+            </div>
+        </div>
+    </div>
+</div><div class="col-xs-12 col-sm-4 " >
+    <div class="card  rh2 card-guidebook" data-primarysegment="midlarge">
+        <img src="https://www.adp.com/-/media/adp/resourcehub/rh2/images/guidebook/thumb/guidebook_tips_evaluating_new_payroll_thumbnail_293_en.jpg" alt="" height="294" width="586" data-lazy="https://www.adp.com/-/media/adp/resourcehub/rh2/images/guidebook/thumb/guidebook_tips_evaluating_new_payroll_thumbnail_293_en.jpg" class="card-img">
+       <div class="card-body" data-primarysegment="midlarge">
+            <p class="card-type">guidebook</p>
+            <h2 class="title"> Tips for evaluating new payroll and HR providers </h2>
+        </div>
+        <div class="card-footer">
+            <div class="card-cta">
+                <a class="link-arrow" aria-label="Download now: Tips for evaluating new payroll and HR providers" href="https://www.adp.com/resources/articles-and-insights/articles/t/tips-for-evaluating-new-payroll-and-hr-providers-2.aspx?referrer={214DDC01-CB02-4047-ACA1-3323FCFC9712}">Download now</a>
+            </div>
+        </div>
+    </div>
+</div><div class="col-xs-12 col-sm-4 " >
+    <div class="card  rh2 card-casestudy" data-primarysegment="midlarge">
+        <img src="https://www.adp.com/-/media/adp/resourcehub/rh2/images/case-study/thumb/bank-of-princeton-thumbnail.jpg" alt="Anna Maria Miller, Senior Vice President and Chief Human Resource Offices, Bank of Princeton" height="294" width="586" data-lazy="https://www.adp.com/-/media/adp/resourcehub/rh2/images/case-study/thumb/bank-of-princeton-thumbnail.jpg" class="card-img">
+        <div class="card-body" data-primarysegment="midlarge">
+            <p class="card-type">case study</p>
+            <h2 class="title"> A bank grows alongside ADP® </h2>
+        </div>
+        <div class="card-footer">
+            <div class="card-cta">
+                <a href="https://www.adp.com/resources/what-others-say/testimonials/b/bank-grows-adp-bank-of-princeton.aspx?referrer={214DDC01-CB02-4047-ACA1-3323FCFC9712}" class="link-arrow" title="Read now: A bank grows alongside ADP®" aria-label="Read now: A bank grows alongside ADP®">Read now</a>
+            </div>
+        </div>
+    </div>
+</div>
+	</div>						
+</section>
+</div>	
+	<!-- END Resource Cards-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

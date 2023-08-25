@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Video Large Autoplayback" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Large Size Video AutoPlay Mute -->
+	<div class="container-fluid p-0"  >
+            <section class="row center-block hero-img">
+          <style>
+			  .video {aspect-ratio: 16 / 9;width: 70%;}
+			  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 912px) {
+			  .video {aspect-ratio: 16 / 9;width: 100%;}
+			  }
+
+			</style>
+
+        <div class="col-xs-12 col-sm-12 text-main center-block hero-text p-0">
+			<div>
+				<iframe class="video" type="text/html"
+				src="https://www.youtube.com/embed/siXUmDxnui0?autoplay=1&modestbranding=1&&mute=1"
+				frameborder="0" allowfullscreen ></iframe>
+			</div>   
+        </div>
+        </section>
+    </div>
+	<!--END Large Size Video AutoPlay Mute -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

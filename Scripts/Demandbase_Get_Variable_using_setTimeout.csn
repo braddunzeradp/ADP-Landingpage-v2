@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Demandbase Get Variable using setTimeout" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[//START push the demandbase values into the form  
+setTimeout(function() 
+  {
+   if(isp === false){
+		$('#Company').val(company_name);
+	}
+	else{
+		//
+	}
+  }, 2000);
+  //END]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

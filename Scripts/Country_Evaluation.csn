@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Country Evaluation" description="Works with the On Load event to trigger on page load" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[//This control can be used for any language and location swap needs. 
+//It requires that a form Country field be located on the page it can be a hidden field
+$('#Country').on('change',function() {	
+var plang = $('html').attr("lang");/*set lang variable*/	
+var cntry = $('#Country').val(); /*get the value of the country field*/
+var loclang = plang + cntry;/*new variable of combined lang and location*/
+	if (loclang == 'enUnited States'){$("#submit-btn").val("Submit");}
+	else if(loclang == 'enCanada'){$("#submit-btn").val("Submit");}
+	else if(loclang == 'frCanada'){$("#submit-btn").val("Soumettre");}	
+	else {$("#submit-btn").val("Submit");}	
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

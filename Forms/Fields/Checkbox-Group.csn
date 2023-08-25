@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Checkbox-Group" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div id="c-group"  class="form-group field-contact">
+			<fieldset class="c-group">
+   			 <legend>Checkbox Group Header</legend>	  
+              <label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer5" name="Generic_Answer5" class="input-contact checkbox-group" value="Checkbox 1 value"  data-val-required="The Value field is required." data-val="true"> 
+                  Checkbox item 1 </label>
+				<label class="label-contact">
+				<input type="checkbox" id="Generic_Answer5_1" name="Generic_Answer5" class="input-contact checkbox-group" value="Checkbox 2 value"  data-val-required="The Value field is required." data-val="true"> 
+                  Checkbox item 2 </label>
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer5" data-valmsg-replace="true"></span> 
+				  </fieldset>
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

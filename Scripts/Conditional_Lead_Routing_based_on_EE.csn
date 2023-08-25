@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Conditional Lead Routing based on EE" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START CONDITIONAL LEAD QUEUE ASSIGNMENT SCRIPT -->
+<script type="text/javascript">
+var ranges = {'SFDC_Owner_ID':
+	 {  
+	 '00G40000001V9KKEA0':{ min:0, max:49 }, 		   
+	 '00G40000001V9djEAC':{ min:50, max:99999}		  
+	}
+};
+$('#Number_of_Employees').change(findRange);
+function findRange(){
+    var num = parseInt( $('#Number_of_Employees').val() );
+    $('#SFDC_Owner_ID').val('');
+    for(field in ranges)
+    {
+      for(rng in ranges[field]){
+        if (num >= ranges[field][rng].min && num <= ranges[field][rng].max)
+        {
+          $('#'+field).val(rng);
+        }
+      }
+    }
+}
+</script>
+<!-- STOP CONDITIONAL LEAD QUEUE ASSIGNMENT SCRIPT -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

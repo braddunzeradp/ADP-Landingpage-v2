@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Phone" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<span class=eloquaemail >Business_Phone1</span>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

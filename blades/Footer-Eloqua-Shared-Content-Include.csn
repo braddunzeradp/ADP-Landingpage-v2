@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footer-Eloqua-Shared-Content-Include" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START footer -->
+<footer id="footer-static" role="contentinfo" >
+	
+	<!--START Eloqua Footer Include -->
+<span elqid="6951" elqtype="Section" class="remove-absolute" style="display: block"></span>
+	<!--END Eloqua Footer Include -->
+</footer>
+<!--END footer -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

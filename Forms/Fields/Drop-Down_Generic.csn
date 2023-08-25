@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Drop-Down Generic" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[		  <!--START Basic Drop Down -->
+			  <div class="form-group field-interest mr-sm">
+              <label for="Generic_Answer3" class="label-interest">Generic Drop Down</label>
+              <select id="Generic_Answer3" name="Generic_Answer3" class="select-interest" data-val-required="Please select" data-val="true">
+				  <option value="" selected="selected">-- Please Select --</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+                <option value="5">Option 5</option>
+                <option value="6">Option 6</option>
+                </select>
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer3" data-valmsg-replace="true"></span> 
+			  </div>
+			  <!--END Basic Drop Down -->
+			  ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Button" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-submit-border">
+              <input id="submit-btn" value="Submit" type="submit" class="btn"/>
+            </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

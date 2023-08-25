@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Set Value based on input value" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[// START # of employee input w/ modal trigger
+$('.cta-employee-trigger').click(function() {
+  var ctaEmp = $('#ctaEmployees').val();
+  $('.form-group.field-employees input[type=text], .form-group.field-employees input[type=number]').val(ctaEmp);
+});
+// END # of employee input w/ modal trigger]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

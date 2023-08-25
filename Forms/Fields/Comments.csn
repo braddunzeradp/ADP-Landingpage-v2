@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Comments" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Comments -->			  
+<div class="form-group field-comment-center">
+	<label for="Comments" class="label-comments">Comments</label>
+	<textarea id="Comments" name="Comments" class="textarea-comments" rows="3" maxlength="255" placeholder="" ></textarea>
+	<span class="field-validation-valid" data-valmsg-for="Comments" data-valmsg-replace="true"></span>
+</div>  
+<!--END Comments -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

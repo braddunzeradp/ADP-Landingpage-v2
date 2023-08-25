@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Checkbox Group - Custom" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<style>
+
+			.sr-only {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+			padding: 0;
+			border: 0;
+			height: 1px;
+			width: 1px;
+			overflow: hidden;
+			}
+
+			.c-checkbox__label ::before {
+			content: "";
+			display: inline-block;
+			vertical-align: middle;
+			width: 20px;
+			height: 20px;
+			border: 2px solid #c5c5c5;
+			margin-right: 8px;
+			}
+			
+
+			.c-checkbox input:checked + .c-checkbox__label:before {
+			border-color: #3863d9;
+			background: url('https://www.adp.com/-/media/adp2022/ui/icn-check-list-blue.svg') center/12px no-repeat;
+			}
+	/* preload the check mark so that it shows up quickly on selection*/
+			body::before {
+			content: url("https://www.adp.com/-/media/adp2022/ui/icn-check-list-blue.svg");
+			position: absolute;
+			top: -9999rem;
+			left: -9999rem;
+			opacity: 0;
+			}
+</style>
+			 
+			<div id="c-group" class="row center-block card-listing ext-mb">
+        <div class="col-xs-12 col-sm-6 ">
+            <div> 
+            <div class="card-body">
+                <div   class="form-group full field-contact">
+			<fieldset class="c-group">
+   			 <!--<legend>Checkbox Group Header</legend>-->
+				
+             <div class="c-checkbox mb-20">
+                  <input type="checkbox" id="Generic_Answer5" name="Generic_Answer5" class="input-contact checkbox-group sr-only" value="dei"  data-val-required="The Value field is required." data-val="true"> 
+                   <label class="c-checkbox__label size24" for="Generic_Answer5">Checkbox item 1 </label>
+			 </div>
+				 <div class="c-checkbox">
+				<input type="checkbox" id="Generic_Answer5_1" name="Generic_Answer5" class="input-contact checkbox-group sr-only" value="wfn"  data-val-required="The Value field is required." data-val="true"> 
+                  <label class="c-checkbox__label size24" for="Generic_Answer5_1">Checkbox item 2 </label>
+				</div>
+              <span class="field-validation-valid " data-valmsg-for="Generic_Answer5" data-valmsg-replace="true"></span> 
+					 
+				  </fieldset>
+			  </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-xs-12 col-sm-6 ">
+            <div > 
+            <div class="card-body">
+                 <div   class="form-group full field-contact">
+			<fieldset class="c-group">
+   			 <!--<legend>Checkbox Group Header</legend>-->
+				
+             <div class="c-checkbox mb-20">
+                  <input type="checkbox" id="Generic_Answer5_2" name="Generic_Answer5" class="input-contact checkbox-group sr-only" value="hcm"  data-val-required="The Value field is required." data-val="true"> 
+                   <label class="c-checkbox__label size24" for="Generic_Answer5_2">Checkbox item 3 </label>
+			 </div>
+				 <div class="c-checkbox">
+				<input type="checkbox" id="Generic_Answer5_3" name="Generic_Answer5" class="input-contact checkbox-group sr-only" value="ins"  data-val-required="The Value field is required." data-val="true"> 
+                  <label class="c-checkbox__label size24" for="Generic_Answer5_3">Checkbox item 4 </label>
+				</div>
+              <span class="field-validation-valid " data-valmsg-for="Generic_Answer5" data-valmsg-replace="true"></span> 
+					 
+				  </fieldset>
+			  </div>
+              </div>
+           </div>
+          </div>
+      </div>  ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Accordian Plus Sign Interaction" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Plus Sign Accordian -->
+    <div class="container-fluid no-gutter">
+    <section class="row center-block" role="">
+        <div class="col-xs-12">
+        <h2 class="text-center ext-mb"><a class="anchor" id="FAQ" style="top: -250px;"></a>Top FAQs about switching</h2>
+        <dl class="accordion">
+            <dt class=""> <strong>How much time will the transition take?</strong> </dt>
+            <dd style="display: none;">
+            <p>How quickly you switch to your new provider depends on your company’s priorities, the services you’re using and how quickly you can access the required data. With ADP, some customers can be up and running within 2 days, while others choose to make the transition over a period of weeks. Services beyond payroll may take longer to set up. Regardless, a well-done transition should never disrupt your payroll process.</p>
+          </dd>
+            <dt> <strong>Does it matter what time of year I start?</strong> </dt>
+            <dd>
+            <p>Though some people prefer to wait for the start of a new quarter, or even a new year, before switching over to a new payroll service provider, ADP can support your move at any time. Any high-quality provider should be able to give you a clear list of forms and information you’ll need to make a smooth transition.</p>
+          </dd>
+            <dt> <strong>How much time should I expect to spend on payroll with a service provider?</strong> </dt>
+            <dd>
+            <p>If you’re doing payroll manually now, you should expect to significantly reduce the amount of time you’re devoting to the process. How much depends on which services you choose. Do you want help tracking time and attendance? Assistance with background checks or employment verifications? Check signing and stuffing? An ADP representative can explain your options and help you choose the package that best fits your business.</p>
+          </dd>
+            <dt> <strong>How much does all this cost?</strong> </dt>
+            <dd>
+            <p>Different payroll providers offer different pricing structures, but certain factors — how frequently you run payroll, how many people you’re paying, how often you add or remove payees, which services you need — will influence the cost. ADP will work with you to determine the right payroll set-up for your business, no matter how simple or complex your needs are.</p>
+          </dd>
+            <dt> <strong>What if I need help, especially before or after business hours?</strong> </dt>
+            <dd>
+            <p>When you hit a snag with payroll, you can’t wait days for someone to get back to you with the right answer. RUN Powered by ADP® offers direct access to certified, experienced payroll professionals available 24/7. Clients can also email questions to the Payroll Center at any time.</p>
+          </dd>
+            <dt> <strong>How do you pay employees when a disaster strikes?</strong> </dt>
+            <dd>
+            <p>ADP products are in the cloud, which provides the ability to run payroll from anywhere, and allows our clients to pay their employees, regardless of what’s going on locally. Through additional services, ADP can help you manage leave during and after a disaster and advise you on benefits, policies and programs to help your employees recover.*</p>
+          </dd>
+            <dt> <strong>What are the different employee payment options?</strong> </dt>
+            <dd>
+            <p>From physical checks to direct deposit, when it comes to distributing wages, today’s employers have more — and smarter — choices than ever before. Talk to an ADP representative to see which one is the best fit for your business and employees.</p>
+          </dd>
+            <dt> <strong>As an accounting professional, how can I switch my clients to ADP payroll?</strong> </dt>
+            <dd>
+            <p>It is very easy to refer your clients to ADP’s payroll and HR platforms with Accountant Connect<sup>SM</sup> – ADP’s free platform designed by accountants for accountants to access their authorized clients’ payroll data, analysis tools, the latest tax resources from Wolters Kluwer CCH Resource Library, Payroll Protection Program resources and much more. To sign up or login, visit <a href="/who-we-serve/by-partner/accountants/accountant-connect.aspx">adp.com/accountantconnect</a>. After you login, select “refer a client”, enter your client’s information and your dedicated ADP Representative will reach out to begin the process.</p>
+          </dd>
+          </dl>
+      </div>
+      </section>
+  </div>
+	<!--END Plus Sign Accordian -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

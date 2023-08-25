@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="EN Shared Content" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<span elqid="6951" elqtype="Section" class="remove-absolute" style="display: block"></span>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

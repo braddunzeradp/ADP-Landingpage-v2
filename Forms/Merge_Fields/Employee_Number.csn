@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Employee Number" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<span class=eloquaemail >Number_of_Employees1</span>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Date Redirect" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ -->
+<script type="text/javascript">
+  // Date and Time Using 24-Hour Time Configuration:
+   var redirectDate = new Date("July 01, 2028 01:00:00").getTime();
+   var currentDate = new Date().getTime();
+   if(currentDate >= redirectDate){
+ // Redirect Location:    
+    window.location.href="https://info.adp.com/page-expired";}         
+</script>
+<!-- STOP DATE/TIME REDIRECT SCRIPT /\/\/\/\/\/\/\/\/\/\/\/\ --> ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

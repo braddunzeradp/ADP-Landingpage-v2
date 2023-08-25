@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Comparison Chart" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[
+<link rel="stylesheet" href="https://www.adp.com/-/media/adp2022/main/css-comparison-charts-wcag.css?rev=295f992314a646d7b4bf5d3e9349e2a7" /> <!-- css-chart -->
+<script defer src="https://www.adp.com/-/media/adp2022/main/js-comparison-charts-wcag.js?rev=cefe1c319da34a0989daf0a4ba7242a2"></script> <!-- js-chart -->
+	
+
+	
+	
+	
+	
+<div class="container-fluid no-gutter compare-pkgs pt-0 bb-grey-10" id="ADP_d0663537ee3c4e26a464d44243d50e8a" data-source-title="WFN Full Chart" data-source-id="b8ac49e7-cbc0-43ee-98b3-e1e843f4debf">
+                <section class="row center-block workforcenow px-gutter">
+<style>
+.compare-pkgs .workforcenow .comparison-chart .logo  { width: 28%; }
+.compare-pkgs .workforcenow .comparison-chart .header { width: 24%; }
+</style>
+
+<table class="comparison-chart js-sticky-header" style="padding: 0px;">
+    <thead class="tableFloatingHeaderOriginal" style="position: static; margin-top: 0px; top: 170px; left: 331.5px; z-index: 3; width: 1240px;">
+      <tr class="top">
+        <th class="logo" style="min-width: 0px; max-width: none;">
+          <p>Find the package that's right for you</p>
+          <img class="img-responsive skiplazy" src="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/comparepackages_hero_615w_en.png?rev=6e9f59c9d43e4b0388169faef1b4285b&amp;hash=E93EF50E489788C40964E1C0B3974E9E" alt="Midsized &amp; Enterprise Payroll and HR" height="398" width="615">
+        </th>
+        <th class="header red" scope="col" style="min-width: 0px; max-width: none;">
+          <div><p class="heading">Select<button>show/hide info</button></p><div class="pkg-info" style="height: auto;">
+            <p><strong>Simplify payroll and HR</strong> with an all-in-one suite.</p>
+          </div><a href="#" class="link-arrow trigger-modal strong" data-package="Select" aria-label="Get pricing for Select package">Get pricing</a></div>
+          
+          
+        </th>
+        <th class="header purple" scope="col" style="min-width: 0px; max-width: none;">          
+          <div><p class="heading">Plus<button>show/hide info</button></p><div class="pkg-info" style="height: auto;">
+            <p>Everything included in our "Select" package <strong>and streamline benefits administration</strong> with time-saving technology.</p>
+          </div><a href="#" class="link-arrow trigger-modal strong" data-package="Plus" aria-label="Get pricing for Plus package">Get pricing</a></div>
+          
+          
+        </th>
+        <th class="header brown featured" scope="col" style="min-width: 0px; max-width: none;">
+          <span>Most Popular</span>
+          <div><p class="heading">Premium<button>show/hide info</button></p><div class="pkg-info" style="height: auto;">
+            <p>Everything included in our "Plus" package <strong>and automated time-tracking</strong> with Time and Attendance.</p>
+          </div><a href="#" class="link-arrow trigger-modal strong" data-package="Premium" aria-label="Get pricing for Premium package">Get pricing</a></div>
+          
+          
+        </th>
+      </tr>
+    </thead><thead class="tableFloatingHeader" style="opacity: 0; display: none;" aria-hidden="false">
+      <tr class="top">
+        <th class="logo">
+          <p>Find the package that's right for you</p>
+          <img class="img-responsive skiplazy" src="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/4122/comparepackages_hero_615w_en.png?rev=6e9f59c9d43e4b0388169faef1b4285b&amp;hash=E93EF50E489788C40964E1C0B3974E9E" alt="Midsized &amp; Enterprise Payroll and HR" height="398" width="615">
+        </th>
+        <th class="header red" scope="col">
+          <div><p class="heading">Select<button>show/hide info</button></p><div class="pkg-info">
+            <p><strong>Simplify payroll and HR</strong> with an all-in-one suite.</p>
+          </div><a href="#" class="link-arrow trigger-modal strong" data-package="Select" aria-label="Get pricing for Select package">Get pricing</a></div>
+          
+          
+        </th>
+        <th class="header purple" scope="col">          
+          <div><p class="heading">Plus<button>show/hide info</button></p><div class="pkg-info">
+            <p>Everything included in our "Select" package <strong>and streamline benefits administration</strong> with time-saving technology.</p>
+          </div><a href="#" class="link-arrow trigger-modal strong" data-package="Plus" aria-label="Get pricing for Plus package">Get pricing</a></div>
+          
+          
+        </th>
+        <th class="header brown featured" scope="col">
+          <span>Most Popular</span>
+          <div><p class="heading">Premium<button>show/hide info</button></p><div class="pkg-info">
+            <p>Everything included in our "Plus" package <strong>and automated time-tracking</strong> with Time and Attendance.</p>
+          </div><a href="#" class="link-arrow trigger-modal strong" data-package="Premium" aria-label="Get pricing for Premium package">Get pricing</a></div>
+          
+          
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Payroll &amp; Tax</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+              <ul>
+                <li>Real-time processing</li>
+                <li>Payroll dashboard with error detection alerts</li>
+                <li>Prorated and retroactive pay adjustments</li>
+                <li>Expert tax filing and payment services</li>
+                <li>Unmatched library of built-in reports</li>
+                <li>Custom report builder</li>
+                <li>General ledger interface</li>
+                <li>DIY hours, earnings, and deductions</li>
+                <li>Batch import capability</li>
+                <li>Payroll preview before submitting</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Enhanced HR Tools</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+              <ul>
+                <li>Compliance reporting</li>
+                <li>Guided new hire and termination workflows</li>
+                <li>Secure and reportable HR recordkeeping</li>
+                <li>Policy acknowledgements</li>
+                <li>Employee development tracking</li>
+                <li>Custom report builder</li>
+                <li>Employee self-service tools</li>
+                <li>Global HR system of record</li>
+                <li>Customizable employee portal</li>
+                <li>Employee engagement resources and custom surveys</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Intelligent Self-service</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+              <ul>
+                <li>Proactively resolve HR, payroll, and benefits issues, eliminating low-value tasks</li>
+                <li>Intelligent, proactive notifications alert employees of tasks, saving you time</li>
+                <li>Action cards and a virtual assistant help employees by addressing most HR issues</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Voice of the Employee</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+              <ul>
+                <li>Deploy research-reviewed and scientifically validated survey templates</li>
+                <li>Build customizable and confidential employee surveys</li>
+                <li>Visualize and analyze survey results data by team, location and department</li>
+                <li>Launch surveys seamlessly with event-based triggers</li>
+                <li>Send surveys to employee groups</li>
+                <li>Broadcast communications to employees, like weather alerts and reminders</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>New Hire Onboarding</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+            <ul>
+              <li>New hire onboarding workflow</li>
+              <li>Fully integrated onboarding experience</li>
+              <li>Digital I-9 processing</li>
+              <li>Fillable forms and electronic signature capabilities</li>
+              <li>Configurable experiences for all employee types</li>
+              <li>Actionable dashboard for practitioners</li>
+              <li>Streamlined administrative tasks</li>
+              <li>Meet the team experience prior to first day</li>
+              <li>Identify employee payment preferences</li>
+              <li>Onboarding completion reminders</li>
+              <li>Office neighborhood map</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Digital Record Keeping</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+              <ul>
+                <li>Secure cloud-based document storage</li>
+                <li>Search and auditing functionality</li>
+                <li>Digital employee record</li>
+                <li>Roles-based security</li>
+                <li>Unlimited storage</li>
+                <li>Single or batch upload</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Benefits Administration</p>
+        </th>
+        <td></td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+            <ul>
+              <li>Flexible plan configuration and management</li>
+              <li>Mobile enrollment for employee benefits and life events</li>
+              <li>Library of benefits reports (i.e. enrollment activity, plan summary, etc.)</li>
+              <li>Open enrollment management dashboard</li>
+              <li>Flexible rate structures</li>
+              <li>Invoice auditing and carrier connections</li>
+              <li>Dependent and beneficiary tracking</li>
+              <li>ACA services including administrative dashboard</li>
+              <li>Personalized decision support</li>
+              <li>Direct connections to carriers (optional)</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Workforce Management</p>
+        </th>
+        <td></td>
+        <td></td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+            <ul>
+              <li>Flexible and mobile time collection</li>
+              <li>Robust employee scheduling capabilities</li>
+              <li>PTO / Time-off accruals</li>
+              <li>Time-off requests and processing</li>             
+              <li>Seamless payroll integration</li>              
+              <li>Comprehensive analytics and reporting, including overtime</li>             
+            </ul>
+          </div>
+        </td>
+      </tr>
+      
+      <tr>
+        <td colspan="5" class="addon-divide"><strong>Add-Ons</strong></td>
+      </tr>
+      
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Talent Acquisition / Recruitment</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+              <ul>
+                <li>Access to 25,000+ job boards</li>
+                <li>Easy, flexible job posting and smart-matching technology powered by ZipRecruiter®</li>
+                <li>Key metrics: sourcing efficiency, cost and time to hire</li>
+                <li>Seamless onboarding integration</li>
+                <li>Talent communication and nurturing (including mobile and text)</li>
+                <li>Requisition process and reporting</li>
+                <li>Mobile career site for candidates</li>
+                <li>Candidate talent communities</li>
+                <li>Industry and geographic compensation benchmarks</li>
+                <li>Interview scheduling and offer letter management</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Performance Management</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+            <ul>
+              <li>Flexible goal assignment and tracking</li>
+              <li>Dashboards to easily view trends</li>
+              <li>Employee self-evaluation support</li>
+              <li>Supports additional raters for review</li>
+              <li>Notifications for upcoming deadlines</li>
+              <li>Customizable review templates</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Compensation Management</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+            <ul>
+              <li>Performance and compensation tracking</li>
+              <li>Configurable merit and budget guidelines</li>
+              <li>Payroll integration for award allocation</li>
+              <li>Progress and budgetary dashboards</li>
+              <li>Flexibility to support various compensation events</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>HR Assist</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+            <ul>
+              <li>Regulatory expertise and guidance</li>
+              <li>Job description support</li>
+              <li>Employer helpdesk staffed by HR professionals</li>
+              <li>Employee handbook wizard</li>
+              <li>Job description templates and wizard</li>
+              <li>HR doc library, alerts and tools</li>
+              <li>Federal and state compliance reporting</li>
+              <li>HR toolkits: guides, forms, documents and policies</li>
+            </ul>
+          </div>
+        </td>
+      </tr>            
+      <tr>
+        <th class="dropdown" scope="row">
+          <p>Analytics and Enhanced Insights</p>
+					<button aria-expanded="false">open/close details</button>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+              <ul>
+                <li>Easy access to key metrics and trends</li>
+                <li>Mobile view of valuable C-Suite insights</li>
+                <li>Quick team, department and timeline comparisons</li>
+                <li>Actionable insights on turnover, overtime, and more</li>
+                <li>Simply customize and share reports</li>
+                <li>Apply thresholds to align and monitor performance</li>
+                <li>Benchmark metrics against largest HCM data-set (optional)</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th class="dropdown" scope="row">
+					<button aria-expanded="false">open/close details</button>
+          <p>Learning Management</p>
+        </th>
+        <td class="check-red">Included</td>
+        <td class="check-purple">Included</td>
+        <td class="check-brown">Included</td>
+      </tr>
+      <tr class="reveal">
+        <td colspan="4">
+          <div class="list" style="display: none">
+            <ul>
+              <li>Over 70K pre-packaged compliance and development courses</li>
+              <li>Custom training build or upload</li>
+              <li>Employee self-enrollment in courses</li>
+              <li>Publish and track instructor-led trainings</li>
+              <li>Custom reporting capabilities</li>
+              <li>Access to thousands of modern courses</li>
+              <li>Curated topical and industry playlists</li>
+              <li>Supports all content formats</li>
+              <li>Course tracking dashboards</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="comparison-list">
+    <div class="header red">
+      <h3>Select</h3>
+      <p><strong>Simplify payroll and HR</strong> with an all-in-one suite.</p>
+      <a href="#" class="link-arrow trigger-modal" data-package="Select" aria-label="Get pricing for Select package">Get pricing</a>
+    </div>
+    <div class="dropdown-mobile">
+      <h4>What's included</h4>
+      <div class="reveal" style="display: none;">
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Payroll &amp; Tax</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Real-time processing</li>
+              <li>Payroll dashboard with error detection alerts</li>
+              <li>Prorated and retroactive pay adjustments</li>
+              <li>Expert tax filing and payment services</li>
+              <li>Unmatched library of built-in reports</li>
+              <li>Custom report builder</li>
+              <li>General ledger interface</li>
+              <li>DIY hours, earnings, and deductions</li>
+              <li>Batch import capability</li>
+              <li>Payroll preview before submitting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Enhanced HR Tools</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Compliance reporting</li>
+              <li>Guided new hire and termination workflows</li>
+              <li>Secure and reportable HR recordkeeping</li>
+              <li>Policy acknowledgements</li>
+              <li>Employee development tracking</li>
+              <li>Custom report builder</li>
+              <li>Employee self-service tools</li>
+              <li>Global HR system of record</li>
+              <li>Customizable employee portal</li>
+              <li>Employee engagement resources and custom surveys</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Intelligent Self-service</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Proactively resolve HR, payroll, and benefits issues, eliminating low-value tasks</li>
+              <li>Intelligent, proactive notifications alert employees of tasks, saving you time</li>
+              <li>Action cards and a virtual assistant help employees by addressing most HR issues</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Voice of the Employee</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Deploy research-reviewed and scientifically validated survey templates</li>
+              <li>Build customizable and confidential employee surveys</li>
+              <li>Visualize and analyze survey results data by team, location and department</li>
+              <li>Launch surverys seamlessly with event-based triggers</li>
+              <li>Send surveys to employee groups</li>
+              <li>Broadcast communications to employees, like weather alerts and reminders</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>New Hire Onboarding</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>New hire onboarding workflow</li>
+              <li>Fully integrated onboarding experience</li>
+              <li>Digital I-9 processing</li>
+              <li>Fillable forms and electronic signature capabilities</li>
+              <li>Configurable experiences for all employee types</li>
+              <li>Actionable dashboard for practitioners</li>
+              <li>Streamlined administrative tasks</li>
+              <li>Meet the team experience prior to first day</li>
+              <li>Identify employee payment preferences</li>
+              <li>Onboarding completion reminders</li>
+              <li>Office neighborhood map</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Digital Record Keeping</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Secure cloud-based document storage</li>
+              <li>Search and auditing functionality</li>
+              <li>Digital employee record</li>
+              <li>Roles-based security</li>
+              <li>Unlimited storage</li>
+              <li>Single or batch upload</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="addon-divide"><strong>Add-Ons</strong></div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Talent Acquisition / Recruitment</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Access to 25,000+ job boards</li>
+              <li>Easy, flexible job posting and smart-matching technology powered by ZipRecruiter®</li>
+              <li>Key metrics: sourcing efficiency, cost and time to hire</li>
+              <li>Seamless onboarding integration</li>
+              <li>Talent communication and nurturing (including mobile and text)</li>
+              <li>Requisition process and reporting</li>
+              <li>Mobile career site for candidates</li>
+              <li>Candidate talent communities</li>
+              <li>Industry and geographic compensation benchmarks</li>
+              <li>Interview scheduling and offer letter management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Performance Compensation</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Flexible goal assignment and tracking</li>
+              <li>Dashboards to easily view trends</li>
+              <li>Employee self-evaluation support</li>
+              <li>Supports additional raters for review</li>
+              <li>Notifications for upcoming deadlines</li>
+              <li>Customizable review templates</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Compensation Management</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Performance and compensation tracking</li>
+              <li>Configurable merit and budget guidelines</li>
+              <li>Payroll integration for award allocation</li>
+              <li>Progress and budgetary dashboards</li>
+              <li>Flexibility to support various compensation events</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>HR Assist</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Regulatory expertise and guidance</li>
+              <li>Job description support</li>
+              <li>Employer helpdesk staffed by HR professionals</li>
+              <li>Employee handbook wizard</li>
+              <li>Job description templates and wizard</li>
+              <li>HR doc library, alerts and tools</li>
+              <li>Federal and state compliance reporting</li>
+              <li>HR toolkits: guides, forms, documents and policies</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Analytics and Enhanced Insights</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Easy access to key metrics and trends</li>
+                <li>Mobile view of valuable C-Suite insights</li>
+                <li>Quick team, department and timeline comparisons</li>
+                <li>Actionable insights on turnover, overtime, and more</li>
+                <li>Simply customize and share reports</li>
+                <li>Apply thresholds to align and monitor performance</li>
+                <li>Benchmark metrics against largest HCM data-set (optional)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Learning Management</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Over 70K pre-packaged compliance and development courses</li>
+              <li>Custom training build or upload</li>
+              <li>Employee self-enrollment in courses</li>
+              <li>Publish and track instructor-led trainings</li>
+              <li>Custom reporting capabilities</li>
+              <li>Access to thousands of modern courses</li>
+              <li>Curated topical and industry playlists</li>
+              <li>Supports all content formats</li>
+              <li>Course tracking dashboards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+			<button aria-expanded="false">open/close details</button>
+    </div>
+    
+    <div class="header purple">      
+      <h3>Plus</h3>
+      <p>Everything included in our "Select" package, <strong>and streamline benefits administration</strong> with time-saving technology.</p>
+      <a href="#" class="link-arrow trigger-modal" data-package="Plus" aria-label="Get pricing for Plus package">Get pricing</a>
+    </div>
+    <div class="dropdown-mobile">
+      <h4>What's included</h4>
+      <div class="reveal" style="display: none;">
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Payroll &amp; Tax</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Real-time processing</li>
+              <li>Payroll dashboard with error detection alerts</li>
+              <li>Prorated and retroactive pay adjustments</li>
+              <li>Expert tax filing and payment services</li>
+              <li>Unmatched library of built-in reports</li>
+              <li>Custom report builder</li>
+              <li>General ledger interface</li>
+              <li>DIY hours, earnings, and deductions</li>
+              <li>Batch import capability</li>
+              <li>Payroll preview before submitting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Enhanced HR Tools</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Compliance reporting</li>
+              <li>Guided new hire and termination workflows</li>
+              <li>Secure and reportable HR recordkeeping</li>
+              <li>Policy acknowledgements</li>
+              <li>Employee development tracking</li>
+              <li>Custom report builder</li>
+              <li>Employee self-service tools</li>
+              <li>Global HR system of record</li>
+              <li>Customizable employee portal</li>
+              <li>Employee engagement resources and custom surveys</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Intelligent Self-service</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Proactively resolve HR, payroll, and benefits issues, eliminating low-value tasks</li>
+              <li>Intelligent, proactive notifications alert employees of tasks, saving you time</li>
+              <li>Action cards and a virtual assistant help employees by addressing most HR issues</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Voice of the Employee</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Deploy research-reviewed and scientifically validated survey templates</li>
+              <li>Build customizable and confidential employee surveys</li>
+              <li>Visualize and analyze survey results data by team, location and department</li>
+              <li>Launch surverys seamlessly with event-based triggers</li>
+              <li>Send surveys to employee groups</li>
+              <li>Broadcast communications to employees, like weather alerts and reminders</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>New Hire Onboarding</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>New hire onboarding workflow</li>
+              <li>Fully integrated onboarding experience</li>
+              <li>Digital I-9 processing</li>
+              <li>Fillable forms and electronic signature capabilities</li>
+              <li>Configurable experiences for all employee types</li>
+              <li>Actionable dashboard for practitioners</li>
+              <li>Streamlined administrative tasks</li>
+              <li>Meet the team experience prior to first day</li>
+              <li>Identify employee payment preferences</li>
+              <li>Onboarding completion reminders</li>
+              <li>Office neighborhood map</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Digital Record Keeping</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Secure cloud-based document storage</li>
+              <li>Search and auditing functionality</li>
+              <li>Digital employee record</li>
+              <li>Roles-based security</li>
+              <li>Unlimited storage</li>
+              <li>Single or batch upload</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Benefits Administration</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Flexible plan configuration and management</li>
+              <li>Mobile enrollment for employee benefits and life events</li>
+              <li>Library of benefits reports (i.e. enrollment activity, plan summary, etc.)</li>
+              <li>Open enrollment management dashboard</li>
+              <li>Flexible rate structures</li>
+              <li>Invoice auditing and carrier connections</li>
+              <li>Dependent and beneficiary tracking</li>
+              <li>ACA services including administrative dashboard</li>
+              <li>Personalized decision support</li>
+              <li>Direct connections to carriers (optional)</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="addon-divide"><strong>Add-Ons</strong></div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Talent Acquisition / Recruitment</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Access to 25,000+ job boards</li>
+              <li>Easy, flexible job posting and smart-matching technology powered by ZipRecruiter®</li>
+              <li>Key metrics: sourcing efficiency, cost and time to hire</li>
+              <li>Seamless onboarding integration</li>
+              <li>Talent communication and nurturing (including mobile and text)</li>
+              <li>Requisition process and reporting</li>
+              <li>Mobile career site for candidates</li>
+              <li>Candidate talent communities</li>
+              <li>Industry and geographic compensation benchmarks</li>
+              <li>Interview scheduling and offer letter management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Performance Compensation</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Flexible goal assignment and tracking</li>
+              <li>Dashboards to easily view trends</li>
+              <li>Employee self-evaluation support</li>
+              <li>Supports additional raters for review</li>
+              <li>Notifications for upcoming deadlines</li>
+              <li>Customizable review templates</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Compensation Management</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Performance and compensation tracking</li>
+              <li>Configurable merit and budget guidelines</li>
+              <li>Payroll integration for award allocation</li>
+              <li>Progress and budgetary dashboards</li>
+              <li>Flexibility to support various compensation events</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>HR Assist</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Regulatory expertise and guidance</li>
+              <li>Job description support</li>
+              <li>Employer helpdesk staffed by HR professionals</li>
+              <li>Employee handbook wizard</li>
+              <li>Job description templates and wizard</li>
+              <li>HR doc library, alerts and tools</li>
+              <li>Federal and state compliance reporting</li>
+              <li>HR toolkits: guides, forms, documents and policies</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Analytics and Enhanced Insights</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Easy access to key metrics and trends</li>
+                <li>Mobile view of valuable C-Suite insights</li>
+                <li>Quick team, department and timeline comparisons</li>
+                <li>Actionable insights on turnover, overtime, and more</li>
+                <li>Simply customize and share reports</li>
+                <li>Apply thresholds to align and monitor performance</li>
+                <li>Benchmark metrics against largest HCM data-set (optional)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Learning Management</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Over 70K pre-packaged compliance and development courses</li>
+              <li>Custom training build or upload</li>
+              <li>Employee self-enrollment in courses</li>
+              <li>Publish and track instructor-led trainings</li>
+              <li>Custom reporting capabilities</li>
+              <li>Access to thousands of modern courses</li>
+              <li>Curated topical and industry playlists</li>
+              <li>Supports all content formats</li>
+              <li>Course tracking dashboards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+			<button aria-expanded="false">open/close details</button>
+    </div>
+    
+    <div class="header brown featured">
+      <span>Most Popular</span>
+      <h3>Premium</h3>
+      <p>Everything included in our "Plus" package <strong>and automated time-tracking</strong> with Time and Attendance.</p>
+      <a href="#" class="link-arrow trigger-modal" data-package="Premium" aria-label="Get pricing for Premium package">Get pricing</a>
+    </div>
+    <div class="dropdown-mobile">
+      <h4>What's included</h4>
+      <div class="reveal" style="display: none;">
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Payroll &amp; Tax</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Real-time processing</li>
+              <li>Payroll dashboard with error detection alerts</li>
+              <li>Prorated and retroactive pay adjustments</li>
+              <li>Expert tax filing and payment services</li>
+              <li>Unmatched library of built-in reports</li>
+              <li>Custom report builder</li>
+              <li>General ledger interface</li>
+              <li>DIY hours, earnings, and deductions</li>
+              <li>Batch import capability</li>
+              <li>Payroll preview before submitting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Enhanced HR Tools</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Compliance reporting</li>
+              <li>Guided new hire and termination workflows</li>
+              <li>Secure and reportable HR recordkeeping</li>
+              <li>Policy acknowledgements</li>
+              <li>Employee development tracking</li>
+              <li>Custom report builder</li>
+              <li>Employee self-service tools</li>
+              <li>Global HR system of record</li>
+              <li>Customizable employee portal</li>
+              <li>Employee engagement resources and custom surveys</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Intelligent Self-service</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Proactively resolve HR, payroll, and benefits issues, eliminating low-value tasks</li>
+              <li>Intelligent, proactive notifications alert employees of tasks, saving you time</li>
+              <li>Action cards and a virtual assistant help employees by addressing most HR issues</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Voice of the Employee</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Deploy research-reviewed and scientifically validated survey templates</li>
+              <li>Build customizable and confidential employee surveys</li>
+              <li>Visualize and analyze survey results data by team, location and department</li>
+              <li>Launch surverys seamlessly with event-based triggers</li>
+              <li>Send surveys to employee groups</li>
+              <li>Broadcast communications to employees, like weather alerts and reminders</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>New Hire Onboarding</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>New hire onboarding workflow</li>
+              <li>Fully integrated onboarding experience</li>
+              <li>Digital I-9 processing</li>
+              <li>Fillable forms and electronic signature capabilities</li>
+              <li>Configurable experiences for all employee types</li>
+              <li>Actionable dashboard for practitioners</li>
+              <li>Streamlined administrative tasks</li>
+              <li>Meet the team experience prior to first day</li>
+              <li>Identify employee payment preferences</li>
+              <li>Onboarding completion reminders</li>
+              <li>Office neighborhood map</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Digital Record Keeping</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Secure cloud-based document storage</li>
+              <li>Search and auditing functionality</li>
+              <li>Digital employee record</li>
+              <li>Roles-based security</li>
+              <li>Unlimited storage</li>
+              <li>Single or batch upload</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Benefits Administration</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Flexible plan configuration and management</li>
+              <li>Mobile enrollment for employee benefits and life events</li>
+              <li>Library of benefits reports (i.e. enrollment activity, plan summary, etc.)</li>
+              <li>Open enrollment management dashboard</li>
+              <li>Flexible rate structures</li>
+              <li>Invoice auditing and carrier connections</li>
+              <li>Dependent and beneficiary tracking</li>
+              <li>ACA services including administrative dashboard</li>
+              <li>Personalized decision support</li>
+              <li>Direct connections to carriers (optional)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Workforce Management</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Flexible and mobile time collection</li>
+              <li>Robust employee scheduling capabilities</li>
+              <li>PTO / Time-off accruals</li>
+              <li>Time-off requests and processing</li>             
+              <li>Seamless payroll integration</li>              
+              <li>Comprehensive analytics and reporting, including overtime</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="addon-divide"><strong>Add-Ons</strong></div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Talent Acquisition / Recruitment</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Access to 25,000+ job boards</li>
+              <li>Easy, flexible job posting and smart-matching technology powered by ZipRecruiter®</li>
+              <li>Key metrics: sourcing efficiency, cost and time to hire</li>
+              <li>Seamless onboarding integration</li>
+              <li>Talent communication and nurturing (including mobile and text)</li>
+              <li>Requisition process and reporting</li>
+              <li>Mobile career site for candidates</li>
+              <li>Candidate talent communities</li>
+              <li>Industry and geographic compensation benchmarks</li>
+              <li>Interview scheduling and offer letter management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Performance Compensation</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Flexible goal assignment and tracking</li>
+              <li>Dashboards to easily view trends</li>
+              <li>Employee self-evaluation support</li>
+              <li>Supports additional raters for review</li>
+              <li>Notifications for upcoming deadlines</li>
+              <li>Customizable review templates</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Compensation Management</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Performance and compensation tracking</li>
+              <li>Configurable merit and budget guidelines</li>
+              <li>Payroll integration for award allocation</li>
+              <li>Progress and budgetary dashboards</li>
+              <li>Flexibility to support various compensation events</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>HR Assist</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Regulatory expertise and guidance</li>
+              <li>Job description support</li>
+              <li>Employer helpdesk staffed by HR professionals</li>
+              <li>Employee handbook wizard</li>
+              <li>Job description templates and wizard</li>
+              <li>HR doc library, alerts and tools</li>
+              <li>Federal and state compliance reporting</li>
+              <li>HR toolkits: guides, forms, documents and policies</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Analytics and Enhanced Insights</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Easy access to key metrics and trends</li>
+                <li>Mobile view of valuable C-Suite insights</li>
+                <li>Quick team, department and timeline comparisons</li>
+                <li>Actionable insights on turnover, overtime, and more</li>
+                <li>Simply customize and share reports</li>
+                <li>Apply thresholds to align and monitor performance</li>
+                <li>Benchmark metrics against largest HCM data-set (optional)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+					<button aria-expanded="false">open/close details</button>
+          <p>Learning Management</p>
+          <div class="drop-reveal" style="display: none;">
+            <ul>
+              <li>Over 70K pre-packaged compliance and development courses</li>
+              <li>Custom training build or upload</li>
+              <li>Employee self-enrollment in courses</li>
+              <li>Publish and track instructor-led trainings</li>
+              <li>Custom reporting capabilities</li>
+              <li>Access to thousands of modern courses</li>
+              <li>Curated topical and industry playlists</li>
+              <li>Supports all content formats</li>
+              <li>Course tracking dashboards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+			<button aria-expanded="false">open/close details</button>
+    </div>
+  </div>
+<div class="text-center ext-mt"><a href="/-/media/pdf/adp-wfn-compare-packages.pdf?rev=ad75befbf8504752bd6845f604a62a81&amp;hash=9C89E88402F4496EEF23C05B7125DEC9" class="btn btn-outline" target="_blank">Download Comparison Chart</a></div>                </section>
+        </div>	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Awards-3col" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="container-fluid logo-column bg-grey-10 hide-cta" >
+    <section class="row center-block awards " >
+      <h2 class="px-15 ext-mb">Award-winning payroll and HR tech</h2>
+      <div class="row center-block  js-carousel-awards">
+        <div class="col-xs-12 col-sm-4">
+          <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="G2 Leader Badge Fall 2022" height="1000" width="770" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/workforce-management/g2-leader-badge-summer-2022.png" class="card-img lazy" /> </div>
+          <p class="text-rating">G2 Leader</p>
+          <p>2023</p>
+          <p class="btn-wrap"><!--<a href="#">link if needed remove class hide cta above</a>--></p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="NelsonHall&#39;s NEAT Leader award for 5 consecutive years" height="294" width="586" data-lazy="https://www.adp.com/-/media/adp/resourcehub/rh2/images/analyst-reports/thumb/nelsonhall-neat-leader-2021-payroll-services-thumb.jpg" class="card-img lazy" /> </div>
+          <p class="text-rating"> Leader in NelsonHall Payroll Services NEAT Report</p>
+          <p>7 years</p>
+          <p class="btn-wrap"><!--<a href="#">link if needed remove class hide cta above</a>--></p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="2018 American Business Awards Silver Stevie Winner" height="585" width="586" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/home/hre-top-product.jpg" class="card-img lazy" /> </div>
+          <p class="text-rating">Top HR Product Winner in Human Resource Executive<sup>®</sup></p>
+          <p>8 consecutive years</p>
+          <p class="btn-wrap"> <!--<a href="#">link if needed remove class hide cta above</a>--> </p>
+        </div>
+      </div>
+      <p class="link-wrap text-center ext-mt"> <a href="https://www.adp.com/about-adp/awards-and-recognition.aspx" class="link-arrow" >See all awards</a> </p>
+    </section>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-Hero-TxtLeft-ImgRight" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--BLADE START - Hero two col img right -->
+	<div class="container-fluid hero-wrap bg-grey-10" >
+    <section class="row center-block hero-img flex-row" >
+      <div class="col-xs-12 col-sm-6 text-main">
+        <h1 style="margin-bottom: 22px !important;">Payroll services designed for your business</h1>
+        <p>Join the 1,000,000+ companies who trust ADP for payroll services and tax support backed by unmatched expertise.</p>
+        <div class="btn-wrap"> <a href="#" class="btn trigger-modal" >Start Quote</a> <a href="https://www.adp.com/what-we-offer/payroll.aspx#compare" class="btn btn-outline scroll" >Compare Packages</a> </div>
+        <!--<p class="size16 mt-30 text-xs-center">Already using ADP? <a href="https://www.adp.com/logins.aspx">Login</a>&nbsp;or <a href="https://www.adp.com/contact-us/customer-service.aspx">Get support</a></p>-->
+      </div>
+      <div class="col-xs-12 col-sm-6 img-main"> <img src="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/payroll/hero_img_payroll_overview.jpg" class="skiplazy" alt="" height="600" width="660" /> </div>
+    </section>
+  </div>
+	<!--BLADE END - Hero two col img right -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

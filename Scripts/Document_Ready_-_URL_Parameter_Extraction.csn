@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Document Ready - URL Parameter Extraction" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$(document).ready(function() {
+	
+/* END custom url parameter extraction */
+		//var xyz123 = $.urlParam('xyz123');
+		//if(xyz123.length > 0) { $('#Generic_Answer1').val(xyz123); }	
+/* END custom url parameter extraction */
+
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

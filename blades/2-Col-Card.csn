@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-Card" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START 2 Cards -->
+	<div class="container-fluid no-gutter bg-grey-10 overflow-hidden">
+    <section class="row center-block text-center">
+        <h2 class="blade-title">See how easy small business payroll and HR can be</h2>
+        <p class="size22 width890 mx-auto px-gutter ext-mb">Pay your people in just minutes, with an intuitive platform. <br class="hidden-xs">
+        Convenient HR and hiring tools also help you grow and manage your team.</p>
+        <div class="row center-block card-listing ext-mb">
+        <div class="col-xs-12 col-sm-4 ">
+            <div class="card"> <img src="https://www.adp.com/-/media/adp/reskin2022/images/cro/run_1minuteoverview_thumb_600w_en.jpg" alt="Screenshots of Run by ADP desktop view" height="302" width="601" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/cro/run_1minuteoverview_thumb_600w_en.jpg" class="card-img">
+            <div class="card-body">
+                <p class="title">1 Minute Overview</p>
+                <p>ADP has reimagined what’s possible, to make running payroll and HR better than ever before.</p>
+              </div>
+            <a href="https://www.youtube-nocookie.com/embed/nE2Owey04cs?amp;rel=0" class="btn2 btn-xs btn-video litymodal" aria-label="" target="_blank">Watch Now</a></div>
+          </div>
+        <div class="col-xs-12 col-sm-4 ">
+            <div class="card"> <img src="https://www.adp.com/-/media/adp/reskin2022/images/cro/run_interactivedemo_thumb_600w_en.jpg" alt="Desktop screenshot of employee timetable and mobile view of new employee onboarding" height="301" width="600" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/cro/run_interactivedemo_thumb_600w_en.jpg" class="card-img">
+            <div class="card-body">
+                <p class="title">Interactive demo</p>
+                <p>Click through our self-led demo to see how easy payroll and HR can be.</p>
+              </div>
+            <a href="#" class="btn2 btn-xs trigger-asset-form" aria-label="">Launch Now</a></div>
+          </div>
+      </div>
+      </section>
+  </div>
+<!--START 2 Cards -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

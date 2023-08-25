@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-TextLeft-VideoRight-BlueBack" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Text left Video Right -->	
+<div class="container-fluid no-gutter bg-blue-10" >
+<section class="row center-block two-column">
+<div class="col-xs-12 col-sm-6 text-main">
+<h2>ADP delivers more for your money and 24/7 service</h2>
+<p class="mb-20">When you’re considering a switch, ask yourself: what am I really paying for? With ADP you get:</p>
+<ul class="checks blue">
+    <li><strong>Help with compliance challenges</strong></li>
+    <li><strong>A simple set up</strong></li>
+    <li><strong>A hassle-free process for running payroll</strong></li>
+    <li><strong>Comprehensive HR services as you grow</strong></li>
+    <li><strong>A COVID-19 toolkit and a built-in Return to Workplace Dashboard</strong></li>
+    <li><strong>24/7 support — even outside normal business hours</strong></li>
+</ul>
+</div>
+<div class="col-xs-12 col-sm-6 img-main">
+<a href="https://www.youtube-nocookie.com/embed/fGx72NER2wI?amp;autoplay=1&amp;rel=0&amp;hd=1&amp;enablejsapi=1" title="" class="video-thumb litymodal " target="_blank"><img alt="" src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/payroll/small-business-payroll/switching-to-adp/vid-sbs-switch.jpg" height="299" width="598" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/payroll/small-business-payroll/switching-to-adp/vid-sbs-switch.jpg" class="caption-img img-responsive mt-xs-40"></a>
+<div class="caption">
+<p>See how small businesses like yours can benefit by switching to ADP payroll and HR services.</p>
+</div>
+</div>
+</section>
+</div>
+<!--END Text left Video Right -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

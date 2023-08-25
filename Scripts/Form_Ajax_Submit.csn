@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Form Ajax Submit" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	$(function(){
+  $(document).on('submit', '#adp-form', function(event){
+    $("#submit-btn").attr("disabled", true).val(btnwait);
+			event.preventDefault();
+          formData = $(this).serialize();
+            $.ajax({
+              method: 'post',
+              url: $(this).attr('action'),
+              data: formData,
+              success: function(response){
+                //console.log(response);
+				//$('#contact-form').hide();
+				//$('#submit-msg').show();  
+              },
+              error: function(error){
+                //console.log(error);
+              }
+            });
+					//START show hide form
+					setTimeout(function() {
+					$('#contact-form').addClass("hide-group");
+					$('#submit-msg').removeClass("hide-group");	
+					 // to redirect uncomment the below and comment out the two lines above
+					//window.location = "https://info.adp.com/";  
+					},2000);	
+			},
+		);
+      });]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

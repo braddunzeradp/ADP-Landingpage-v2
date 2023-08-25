@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<header class="global-nav">
+  <div class="nav-wrap"> 
+	  <a class="skip" href="#main-content">Skip to main content</a>
+    <div class="nav-main row">
+      <div class="mobile-nav visible-xs-flex">
+        <div class="mobile-nav-left">
+          <!--<button class="hamburger visible-xs-inline" type="button"> 
+          <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+             </span> 
+          </button>-->
+        </div>
+        <div class="mobile-nav-right"> 
+			<a class="trigger-modal" href="#">Start Quote</a> 
+		 </div>
+      </div>
+      <a href="https://www.adp.com" class="logo">
+		  <img alt="ADP logo" src="https://www.adp.com/-/media/adp/redesign2018/ui/logo-adp-fy19.svg" class="skiplazy" >
+		</a>
+      <div class="controls">
+        <div class="utility"> 
+			<!--<a class="nav-support" href="#">Link in nav</a> -->
+			<a href="#form-top" class="btn btn-xs hidden-xs scroll">Contact Us</a>
+			</div>
+      </div>
+    </div>
+	<!--START lower nav area with phone number -->  
+    <!--<div class="nav-contact" >
+      <div class="row center-block "> <span>Get a quote <strong>800-225-5237</strong></span> <a href="#" class="contact-cta trigger-modal" >Start Quote</a> </div>
+    </div>-->
+	  <!--END lower nav area with phone number -->
+  </div>
+</header>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

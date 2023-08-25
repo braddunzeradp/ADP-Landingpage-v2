@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Video-Popup" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!--START Center Video -->	
+<div class="container-fluid no-gutter bg-blue-10" >
+<section class="row center-block">
+
+<div class="col-xs-12 col-sm-12 img-main">
+<a href="https://www.youtube-nocookie.com/embed/fGx72NER2wI?amp;autoplay=1&amp;rel=0&amp;hd=1&amp;enablejsapi=1" title="" class="video-thumb litymodal " target="_blank"><img alt="" src="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/payroll/small-business-payroll/switching-to-adp/vid-sbs-switch.jpg" height="299" width="598" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/payroll/small-business-payroll/switching-to-adp/vid-sbs-switch.jpg" class="caption-img img-responsive mt-xs-40"></a>
+<div class="caption">
+<p class="text-center">See how small businesses like yours can benefit by switching to ADP payroll and HR services.</p>
+</div>
+</div>
+</section>
+</div>
+<!--END Center Video -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

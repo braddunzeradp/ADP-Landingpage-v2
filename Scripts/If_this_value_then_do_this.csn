@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="If this value then do this" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var cntry = $('#Country').val(); /*get the value of the country field*/	
+var somevariable = 'somevalue';
+if (somevariable == 'a value') {
+	$('#temp-footer').addClass('hide-group');
+} else {
+  $('#temp-footer').removeClass('hide-group');
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

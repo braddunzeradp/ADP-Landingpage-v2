@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Zip" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[		     <div class="form-group field-zip mr-xss">
+              <label id="lblzip" for="Zip_or_Postal_Code" class="label-zip">ZIP Code</label>
+				<input id="Zip_or_Postal_Code" name="Zip_or_Postal_Code" class="input-zip" type="text" value=""   maxlength="255" autocomplete="postal-code" placeholder="" data-val-required="Please enter ZIP Code." data-val-regex="Please enter a valid zip code." data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="Zip_or_Postal_Code" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

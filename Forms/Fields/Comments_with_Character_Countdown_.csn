@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Comments with Character Countdown " description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!--START Comments -->			  
+<div class="form-group field-comment-center">
+	<label for="Comments" class="label-comments">Comments (Maximum of 255 Characters)</label>
+	<textarea id="Comments" name="Comments" class="textarea-comments" rows="3" maxlength="255" placeholder="" ></textarea>
+	<p style="max-width:390px;margin: 0 auto;"><span id="rchars">255</span> Character(s) Remaining</p>
+	<span class="field-validation-valid" data-valmsg-for="Comments" data-valmsg-replace="true"></span>
+</div>  
+<!--END Comments -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

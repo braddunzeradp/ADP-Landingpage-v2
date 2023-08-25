@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="City" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group field-city mr-sm">
+              <label id="lblcity" for="City" class="label-city">City</label>
+              <input id="City" name="City" class="input-city" type="text" maxlength="255" data-val-required="Please enter the city" data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

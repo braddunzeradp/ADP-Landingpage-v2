@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Phone" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[            <div  class="form-group field-phone  ">
+              <label id="lblphone" for="Phone" class="label-phone">Phone Number</label>
+              <input id="Phone" name="Phone" class="input-phone" type="tel" autocomplete="tel" value="" maxlength="255" placeholder=""  data-val-required="Please enter Phone Number." data-val-regex="Please enter a valid telephone number."  data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

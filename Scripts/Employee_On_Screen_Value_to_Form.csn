@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Employee On Screen Value to Form" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<script>
+// # of employee input w/ modal trigger
+$('.cta-employee-trigger').click(function() {
+  var ctaEmp = $('#ctaEmployees').val();
+  $('.form-group.field-employees input[type=text], .form-group.field-employees input[type=number]').val(ctaEmp);
+});
+
+// compare cta destination
+$('#ctaEmployees').change(function() {
+console.log('change');
+  var empNum = $('#ctaEmployees').val();
+  if (empNum >= 50) {
+    $('#cta-employee-compare').attr('href','https://www.adp.com/what-we-offer/products/adp-workforce-now/compare-options.aspx');
+  }
+  else {
+    $('#cta-employee-compare').attr('href','https://www.adp.com/what-we-offer/products/run-powered-by-adp/compare-options.aspx');
+  }
+});
+</script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

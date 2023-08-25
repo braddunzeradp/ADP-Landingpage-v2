@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Bullets - Basic" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="bullets">
+    <li>Eliminate paper timesheets with digital time clocking and save employees up to 30 minutes per month<sup>1</sup></li>
+    <li>Save an average of 40 minutes per week per manager with automated alerts, timecard approvals, <a href="#">scheduling</a> exception reports and more<sup>2</sup></li>
+    <li>Improve timecard accuracy and avoid "buddy punching" by using time clocks with optional finger- or face-scan identification</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

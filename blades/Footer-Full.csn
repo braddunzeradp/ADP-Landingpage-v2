@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Footer-Full" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<footer id="footer-static" role="contentinfo" >
+  <nav class="row center-block" role="navigation">
+    <!--<div class="col-xs-12 col-sm-3">
+      <ul>
+        <li><a href="/contact-us/customer-service.aspx">Contact Us</a></li>
+        <li><a href="tel:8002255237">Talk to Sales &mdash; <span class="blue-ui taubsans-medium">800-225-5237</span></a></li>
+        <li><a href="/contact-us/customer-service.aspx">Get Support</a></li>
+        <li><a href="https://login.adp.com/welcome"><span class="blue-ui taubsans-medium">Sign In</span></a></li>
+      </ul>
+    </div>-->
+    <!--<div class="col-xs-6 col-sm-2">
+      <ul>
+        <li> <a href="/what-we-offer.aspx" >What We Offer</a>
+          <ul>
+            <li><a href="/what-we-offer/payroll.aspx" >Payroll</a></li>
+            <li><a href="/what-we-offer/time-and-attendance.aspx" >Time and Attendance</a></li>
+            <li><a href="/what-we-offer/talent.aspx" >Talent</a></li>
+            <li><a href="/what-we-offer/benefits.aspx" >Benefits</a></li>
+            <li><a href="/what-we-offer/hr-services.aspx" >HR Services</a></li>
+            <li><a href="/what-we-offer/hr-outsourcing-and-peo.aspx" >HR Outsourcing and PEO</a></li>
+            <li><a href="/what-we-offer/integrations.aspx" >Integrations</a></li>
+            <li><a href="/what-we-offer/marketplace.aspx" >App Marketplace</a></li>
+            <li><a href="/what-we-offer/products.aspx" >Products by Name</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>-->
+  </nav>
+  <div class="row center-block">
+    <div class="col-xs-12 col-sm-3 text-xs-center">
+      <p><a href="https://www.adp.com" class="logo"><img alt="logo" src="https://www.adp.com/-/media/adp/redesign2018/ui/logo-adp-fy19.svg" class="skiplazy" height="32" width="70" /></a></p>
+      
+      <p class="mb-0"><a href="https://www.adp.com/worldwide-locations.aspx">All Worldwide Locations</a></p>
+    </div>
+    <div class="col-xs-12 col-sm-9 text-xs-center">
+      <ul class="sm-links">
+        <li><a class="sm-icn sm-icn-facebook" href="https://www.facebook.com/AutomaticDataProcessing/" rel="nofollow" target="_blank"><span>ADP Facebook Page</span></a></li>
+        <li><a class="sm-icn sm-icn-twitter" href="https://twitter.com/adp" rel="nofollow" target="_blank"><span>ADP Twitter Page</span></a></li>
+        <li><a class="sm-icn sm-icn-youtube" href="https://www.youtube.com/user/adp" rel="nofollow" target="_blank"><span>ADP YouTube Channel</span></a></li>
+        <li><a class="sm-icn sm-icn-linkedin" href="https://www.linkedin.com/company/adp" rel="nofollow" target="_blank"><span>ADP LinkedIn Page</span></a></li>
+      </ul>
+      <ul class="legal-links">
+        <li><a href="https://www.adp.com/legal.aspx">Terms</a></li>
+        <li><a href="https://www.adp.com/privacy.aspx">Privacy</a></li>
+        <li class="d-xs-block"><a href="https://www.adp.com/modern-slavery-statement.aspx">Modern Slavery Statement</a></li>
+        <li class="d-xs-block"><a href="https://www.adp.com/web-accessibility-statement.aspx">Web Accessibility Statement</a></li>
+      </ul>
+      <p class="copyright">ADP and the ADP logo are registered trademarks of ADP, Inc. All other marks are the property of their respective owners. Copyright &copy; 2023 ADP, Inc.</p>
+    </div>
+  </div>
+ <!-- <div class="mobile-nav move-top">
+    <div class="call-menu">
+      <div class="menu-wrap">
+        <button class="close-icn"></button>
+        <a href="tel:18002255237" class="btn btn-outline btn-xs">Talk to Sales</a> <a href="tel:18442275237" class="btn btn-outline btn-xs">Call Support</a> </div>
+    </div>
+    <button class="cta call" name="call"><img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="40" width="40" data-lazy="https://www.adp.com/-/media/adp2022/ui/icn-nav-call.svg" class="lazy" />Call</button>
+    <a class="cta chat" href="#"> 
+				
+    <button name="chat"><img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="40" width="40" data-lazy="https://www.adp.com/-/media/adp2022/ui/icn-nav-chat.svg" class="lazy" />Chat</button>
+    </a>
+    <button class="cta search-trigger" name="search"><img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="40" width="40" data-lazy="https://www.adp.com/-/media/adp2022/ui/icn-nav-search.svg" class="lazy" />Search</button>
+    <a class="cta login" href="https://login.adp.com/welcome">
+    <button name="login"><img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="40" width="40" data-lazy="https://www.adp.com/-/media/adp2022/ui/icn-nav-login.svg" class="lazy" />Sign In</button>
+    </a> 
+	</div>-->
+</footer>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

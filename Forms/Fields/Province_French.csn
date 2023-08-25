@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Province French" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div id="Province_Listfr" class="form-group field-province " style="">
+    <label id="lblprovincefr" for="State_or_Province" class="label-province">Province</label>
+		<select id="Province_Fieldfr" name="State_or_Province" class="select-province" data-val-required="Province est obligatoire." data-val="true" >
+        <option value="" selected="selected">-- Veuillez sélectionner --</option>
+        <option value="AB">Alberta</option>
+        <option value="BC">Colombie-Britannique</option>
+        <option value="MB">Manitoba</option>
+        <option value="NB">Nouveau-Brunswick</option>
+        <option value="NL">Terre-Neuve-et-Labrador</option>
+        <option value="NT">Territoires du Nord-Ouest</option>
+        <option value="NS">Nouvelle-Écosse</option>
+        <option value="NU">Nunavut</option>
+        <option value="ON">Ontario</option>
+        <option value="PE">Île-du-Prince-Édouard</option>
+        <option value="QC">Québec</option>
+        <option value="SK">Saskatchewan</option>
+        <option value="YT">Yukon</option>
+		</select>
+	<span class="field-validation-valid" data-valmsg-for="State_or_Province" data-valmsg-replace="true"></span>	
+</div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

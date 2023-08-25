@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col Card NoOutline" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START 3 Col Card No Outline -->
+<div class="container-fluid no-gutter content-listing" >
+    <section class="row center-block text-center">
+      <div class="row center-block">
+        <div class="col-xs-12 col-sm-4 " data-id="08670f41-8512-4076-9032-0da0a66e0a14">
+          <div class="card"> <img src="https://www.adp.com/-/media/adpglobal/reskin2022/images/home/unmatched-expertise-icon.svg" alt="" data-lazy="https://www.adp.com/-/media/adpglobal/reskin2022/images/home/unmatched-expertise-icon.svg" class="card-img loaded">
+            <div class="card-body">
+              <h3>Unparalleled experience</h3>
+              <p>We’ve helped organizations across the globe navigate nearly every HR and payroll scenario — with ease.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 " data-id="2efb9c5b-2092-423e-b41d-ff35eacea1ca">
+          <div class="card"> <img src="https://www.adp.com/-/media/adpglobal/reskin2022/images/home/global-reach-icon.svg" alt=""  data-lazy="https://www.adp.com/-/media/adpglobal/reskin2022/images/home/global-reach-icon.svg" class="card-img loaded">
+            <div class="card-body">
+              <h3>Global reach</h3>
+              <p>You need continuous technology and service innovation — with flexible options — to keep pace with global business demands.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 " data-id="69ffe45f-66e1-42f0-a366-ec2b4265ebc6">
+          <div class="card"> <img src="https://www.adp.com/-/media/adpglobal/reskin2022/images/home/simplifiedcomplianceicon1x.svg" alt="" data-lazy="https://www.adp.com/-/media/adpglobal/reskin2022/images/home/simplifiedcomplianceicon1x.svg" class="card-img loaded">
+            <div class="card-body">
+              <h3>Compliance expertise</h3>
+              <p>Fast-changing regulations across geographies can be complex and risky — help ensure that your business is protected.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+<!--END 3 Col Card No Outline -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

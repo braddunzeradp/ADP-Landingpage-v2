@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-Banner-with-TriggerModal" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!--START Banner -->
+	<div class="container-fluid banner-cta bg-blue-80" >
+    <section class="row center-block">
+        <div class="text-main width1130 mx-auto">
+        <div class="copy pr-sm-30 text-xs-center">
+            <h2>Let’s find the perfect solution for your business</h2>
+            <p>You know your business, industry and employees better than anyone. Tell us the details and we’ll get you a custom recommendation with pricing.</p>
+          </div>
+        <div class="col-sm-5 col-md-4 btn-block"> <a href="#" class="btn trigger-modal">Start Quote</a> </div>
+      </div>
+      </section>
+  </div>
+<!--END Banner -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

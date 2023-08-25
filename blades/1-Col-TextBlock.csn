@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="1-Col-TextBlock" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[  <!--START Text Block -->
+    <div class="container-fluid bg-grey-10" >
+    <section class="row center-block width890">
+        <h2 class="text-center">Time and attendance FAQs</h2>
+        <h3 class="p-style strong mb-15">What’s the disadvantage of using a time clock from an office supply store?</h3>
+        <p>While time clocks are certainly better than handwritten or paper timesheets, they typically only record punches or timestamps. Someone still needs to calculate the hours worked, know how to apply the pay rules and enter the time into payroll. With cloud-based time and attendance software, a smart time clock records the information, calculates the total hours immediately and sends them to payroll automatically. ADP time clocks also offer biometric identification, which prevents employees from clocking in or out for each other, also known as "buddy punching."</p>
+        <h3 class="p-style strong mb-15">Can ADP time and attendance software help us manage overtime?</h3>
+        <p>Yes, complying with the <a class="link-out" href="https://www.dol.gov/agencies/whd/flsa" target="_blank">Fair Labor Standards Act (FLSA)</a> and controlling overtime costs are two of the biggest benefits of online time and attendance solutions. <a href="https://www.adp.com/what-we-offer/time-and-attendance/employee-time-tracking.aspx">Employee time tracking</a>&nbsp;starts with proper classification of workers, followed by automatic and accurate calculation of hours worked during the pay period. Overtime rules specific to individual businesses and locations are then applied and sent for payroll processing. Managers only need to approve timecards, not calculate hours or apply overtime rules. They also have timely visibility into who may be approaching overtime so they can adjust schedules accordingly.</p>
+        <h3 class="p-style strong mb-15">To what extent is employee time tracking integrated with payroll and HR?</h3>
+        <p>Time and attendance features are part of all <a href="https://www.adp.com/what-we-offer/products.aspx">ADP HCM platforms</a>. This means that users only need one username and password, the experience and design is consistent, and all pertinent information is housed in a centralized location. Employee data flows automatically between HR, payroll and <a href="https://www.adp.com/resources/articles-and-insights/articles/t/timekeeping-software.aspx">timekeeping</a>&nbsp;so there is no re-keying, fewer mistakes and more timely access to data.</p>
+        <h3 class="p-style strong mb-15">Can employees use their mobile phones for time tracking?</h3>
+        <p>Yes, the <a href="https://www.adp.com/what-we-offer/products/adp-mobile-solutions.aspx">ADP Mobile app</a> allows employees to clock in and out, view schedules, request time off and more. Geo-fencing helps ensure that staff members are within a specified distance from a work location when they track their time. Our app also has tools for employers, such as payroll, benefits administration and other HCM features.</p>
+      </section>
+  </div>
+<!--END Text Block -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

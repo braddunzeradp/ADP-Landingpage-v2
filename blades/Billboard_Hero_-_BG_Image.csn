@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Billboard Hero - BG Image" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[  <!--START Hero Billboard -->
+	<div class="container-fluid hero-billboard overlay"  style="background-image: url('https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/hero_time_attendance_1440_1x.jpg')">
+            <section class="row center-block hero-img">
+            <div class="col-xs-12 col-sm-6 img-main">
+                <img src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/mobile_hero_time_attendance_768_1x.jpg" class="skiplazy" alt="" height="432" width="768">
+            </div>
+
+        <div class="col-xs-12 col-sm-6 text-main">
+            <h1>Time &amp; attendance</h1>
+            <p>Managing schedules, hours worked and time off is critical for payroll accuracy and compliance. Time &amp; attendance solutions from ADP make it easier.</p>
+                <div class="btn-wrap">
+                    <a href="#" class="btn">Start Quote</a>
+                </div>
+            <p class="size16 mt-12 text-xs-center">Already using ADP? <a href="https://www.adp.com/logins.aspx">Login</a>&nbsp;or <a href="https://www.adp.com/contact-us/customer-service.aspx">Get support</a></p>
+        </div>
+        </section>
+    </div>
+	<!--END Hero Billboard -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

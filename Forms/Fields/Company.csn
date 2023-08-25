@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Company" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ <div  class="form-group field-company mr-sm">
+              <label id="lblbizname" for="Company" class="label-company">Business Name</label>
+              <input id="Company" name="Company" class="input-company" type="text" value=""   maxlength="255"   autocomplete="organization" placeholder=""   data-val-required="Please enter company name." data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="Company" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

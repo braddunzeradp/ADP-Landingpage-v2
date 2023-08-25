@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Comply Message Checkbox" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!-- START Compliance Message hidden by default. the class hide-group controls show hide via a script -->
+	<div id="comply-group" class="form-group field-comply hide-group">
+		<label class="label-comply">
+		<input type="checkbox" id="CANEmailConsent" name="CANEmailConsent" class="input-comply"  value="" data-val-ischecked="Please check this box to proceed." data-val-required="This field is required." data-val="true" disabled/><span id="lblcomply">ADP may contact me about its products, services, and offers.  Options to unsubscribe and manage your communication preferences will be provided to you in these communications.</span>
+	</label>
+	<span class="field-validation-valid" data-valmsg-for="CANEmailConsent" data-valmsg-replace="true"></span>
+	</div>
+	<!-- END Compliance Message -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Address 2" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div  class="form-group field-address ">
+              <label id="lbladdress2" for="Address2" class="label-address2">Address2</label>
+              <input id="Address2" name="Address2" class="input-address" type="text" value=""   maxlength="255"   autocomplete="address2" placeholder=""   data-val-required="Please enter a suite or appartment number." data-val="false" />
+              <span class="field-validation-valid" data-valmsg-for="Address2" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

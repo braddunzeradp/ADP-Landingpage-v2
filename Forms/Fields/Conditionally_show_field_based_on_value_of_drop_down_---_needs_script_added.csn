@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Conditionally show field based on value of drop down --- needs script added" description="Requires the jquery script called "Conditionally Show Hide Field based on value of drop down"" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ <!--START Basic Drop Down -->
+			  <div class="form-group field-interest mr-sm">
+              <label for="Generic_Answer3" class="label-interest">Generic Drop Down</label>
+              <select id="Generic_Answer3" name="Generic_Answer3" class="select-interest" data-val-required="Please select" data-val="true">
+				  <option value="" selected="selected">-- Please Select --</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+                <option value="5">Option 5</option>
+                <option value="6">Option 6</option>
+                </select>
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer3" data-valmsg-replace="true"></span> 
+			  </div>
+			  <!--END Basic Drop Down -->
+			  		  
+			  <div id="generic2" class="form-group field-generic mr-sm hide-group">
+              <label id="lblgeneric" for="Generic2" class="label-generic">Generic Answer 2</label>
+              <input id="Generic_Answer2" name="Generic_Answer2" class="input-generic" type="text" maxlength="255" data-val-required="This field is required" data-val="true" disabled/>
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer2" data-valmsg-replace="true"></span> 
+</div>	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="No of Employee" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[            <div class="form-group field-employees mr-xxs">
+              <label id="lblempsize" for="Number_of_Employees" class="label-employees"># of Employees</label>
+              <input id="Number_of_Employees" name="Number_of_Employees" class="input-employees" type="number" min="0" max="99999999" data-val-required="Please enter # of Employees." data-val-range="Enter a value less than or equal to 99999999." data-val-range-min="0" data-val-range-max="99999999" data-val-number="The field Value must be a number." data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="Number_of_Employees" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

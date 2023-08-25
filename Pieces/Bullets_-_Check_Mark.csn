@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Bullets - Check Mark" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="checks blue">
+    <li>100% mobile access for improved workforce productivity</li>
+    <li>AI-assisted decision-making and forecasting</li>
+    <li>Dashboards with up-to-the-minute visibility</li>
+    <li>Expert consultation on wage and hour compliance</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

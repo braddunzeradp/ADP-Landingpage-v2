@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="US Privacy Load File" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<script src="https://images.adpinfo.com/Web/ADPEmployerServices/{99d3f17b-064e-4147-a529-41559a5ff2aa}_privacy-statement-en.js"></script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

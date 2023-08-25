@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Email Load Eloqua" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var eaddress = "<span class=eloquaemail >EmailAddress</span>";
+	if(eaddress != null){
+		$("#Email").val(eaddress);
+		console.log(eaddress);
+	}
+	else {
+		$("#Email").val('no-email@adp.com');
+		console.log("no email");
+	}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

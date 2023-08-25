@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Comply Set Form Hide Show" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[// START country evaluation in form
+$('#Country').change(function() {
+var cval = $('#Country').val(); 
+	if (cval == "United States"){
+		$('#comply-group').addClass('hide-group')
+	}
+	else {
+		$('#comply-group').removeClass('hide-group')
+	}
+});
+// END country evaluation in form]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col-TxtLeft8-ImgRight4" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	<!--START Text Left Img Right-->
+	<div class="container-fluid no-gutter" >
+            <section class="row center-block two-column img-right">
+            <div class="col-xs-12 col-sm-5 col-md-4 img-main">
+                <img src="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/sbs_management_455px_1x.jpg" alt="" height="455" width="455" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/who-we-serve/by-business-size/1-49-employees/time-and-attendance/sbs_management_455px_1x.jpg" >
+            </div>
+        <div class="col-xs-12 col-sm-7 col-md-8 text-main">
+            <h4 class="h2-style">More complex time management needs? ADP can help.</h4>
+            <p>Need more than just time and attendance tracking with scheduling? Workforce management from ADP can also help you forecast labor needs, automate attendance policies, track leave cases, and more. <a href="https://www.adp.com/what-we-offer/time-and-attendance/workforce-management.aspx">Learn how workforce management from ADP can help you improve productivity and employee performance</a>.</p>
+        </div>
+        </section>
+    </div>
+	<!--END Text Left Img Right-->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

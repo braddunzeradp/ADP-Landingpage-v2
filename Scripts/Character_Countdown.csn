@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Character Countdown" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- START Character Countdown -->	
+<script type="text/javascript">	
+$(document).ready(function() {  
+    var maxLength = 255;
+$('#Comments').keyup(function() {
+  var textlen = maxLength - $(this).val().length;
+  $('#rchars').text(textlen);
+});
+  });	
+</script>	
+<!-- END Character Countdown -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

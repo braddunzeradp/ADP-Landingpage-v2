@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="2-Col Accordian" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="container-fluid no-gutter bg-blue-10">
+    <section class="row center-block" >
+      <div class="col-xs-12 col-sm-4">
+        <h2 class="ext-mb">ADP payroll services FAQs</h2>
+      </div>
+      <div class="col-xs-12 col-sm-8 js-accordion light" data-accordion-prefix-classes="aria-accordion" data-accordion-multiselectable="none">
+        <div class="js-accordion__panel">
+          <h3 class="js-accordion__header">Why would I want ADP to process payrolls for me?</h3>
+          <p>In addition to taking work off your plate and freeing up time for you and your staff, ADP stays on top of changing rules and regulations &mdash; to help keep you compliant and protect you from potential fines and penalties. Our payroll services also sync your payroll data with <a href="https://www.adp.com/resources/articles-and-insights/articles/p/peo-what-is-a-peo-professional-employer-organization.aspx">other solutions</a>, like time tracking and benefits.</p>
+        </div>
+        <div class="js-accordion__panel">
+          <h3 class="js-accordion__header">What are online payroll services from ADP?</h3>
+          <p>ADP provides customized payroll services, solutions and software for businesses of all sizes. We offer direct deposit and mobile payroll solutions that integrate with time and attendance tracking. We also automatically calculate deductions for taxes and retirement contributions, and provide expert support to help make sure you stay compliant with all applicable rules and regulations.</p>
+        </div>
+        <div class="js-accordion__panel">
+          <h3 class="js-accordion__header">Will ADP pay my payroll taxes for me?</h3>
+          <p>ADP helps companies manage payroll taxes by automating deductions from employee wages and making sure the right amount of money is delivered to the government, based on the latest payroll tax rules and regulations.</p>
+        </div>
+        <div class="js-accordion__panel">
+          <h3 class="js-accordion__header">Does ADP integrate time and attendance with payroll?</h3>
+          <p>Yes. In fact, it's incredibly easy to start with payroll and <a href="https://www.adp.com/resources/articles-and-insights/articles/p/peo-what-is-a-peo-professional-employer-organization.aspx">add on services</a>&nbsp;such as time and attendance, HR, insurance, retirement and more &mdash; as you need them.</p>
+        </div>
+        <div class="js-accordion__panel">
+          <h3 class="js-accordion__header">Does ADP have online payroll tools or a mobile app for employees?</h3>
+          <p>ADP mobile solutions give employees access to their payroll information and benefits, no matter where they are. Employees can complete a variety of tasks, such as view their pay stubs, manage their time and attendance, and enter time-off requests.</p>
+        </div>
+      </div>
+    </section>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

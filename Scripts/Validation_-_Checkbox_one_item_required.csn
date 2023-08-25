@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Validation - Checkbox one item required" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$("#c-group .checkbox-group").each(function () {$(this).rules('add', {required: true,minlength: 1,messages:{required:"You must select at least one item from the options above"}});});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

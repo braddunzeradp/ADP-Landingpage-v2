@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Compare Value of ID Object" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[// START compare cta destination
+$('#ctaEmployees').change(function() {
+  var empNum = $('#ctaEmployees').val();
+  if (empNum >= 50) {
+    $('#cta-employee-compare').attr('href','https://www.adp.com/what-we-offer/products/adp-workforce-now/compare-options.aspx');
+  }
+  else {
+    $('#cta-employee-compare').attr('href','https://www.adp.com/what-we-offer/products/run-powered-by-adp/compare-options.aspx');
+  }
+});
+// END compare cta destination]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

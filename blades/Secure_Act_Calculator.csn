@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Secure Act Calculator" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<link rel="stylesheet" href="https://www.adp.com/-/media/adp2022/main/css-secure-act-caculator.css?rev=bb49434c2c384392a779d973fed826a8" /> <!-- css-secure-calculator -->
+<script defer src="https://www.adp.com/-/media/adp2022/main/js-secure-act-calculator.js?rev=c206bf472e0d45b0a9c35115d671c518"></script> <!-- js-secure-calculator-->	
+	
+	 <div class="container-fluid no-gutter bg-blue-10 pb-xs-0" id="ADP_40d7bde7f67d406abf31fa8d36b99a44" data-source-title="SideBySide - One plan plenty of options - NEW CALCULATOR 2" data-source-id="804b4d62-8ead-4462-a179-3bee5b74d8c5" >
+                <section class="row center-block toggle-features collapsed" >
+<div class="text-center px-gutter">
+<h2>One plan, plenty of options</h2>
+<p class="size22 ext-mb">Not only do you get a full-featured 401(k) with transparent pricing, <br class="hidden-xs" />
+you even get tax credits to offset fees.</p>
+</div>
+
+<div class="row center-block two-column">
+
+<div class="col-xs-12 col-sm-6 text-main pr-sm-30">
+<h2 class="size30">Everything you need in a <br class="hidden-xs" />flexible, customizable plan</h2>
+<p>A 401(k) plan may now be more affordable than ever, thanks to the recent SECURE 2.0 legislation passed in December 2022.</p>
+<p>Small business employers with up to 50 employees are now eligible to receive a credit covering 100% of administrative expenses (up to $5,000) for the first three years of a new plan.</p>
+<p>Check out your potential savings with our calculator and see how an ADP 401(k) might be the answer for you and your employees.</p>
+<p class="h4-style" role="heading" aria-level="4">ADP 401(k) plans offer:</p>
+<ul class="checks red mb-40">
+    <li><strong>Real-time SmartSync&reg;</strong> payroll integration and reporting</li>
+    <li><strong>3(16) Administrative fiduciary support</strong></li>
+    <li><strong>3(38) Investment management support</strong></li>
+    <li><strong>Compliance readiness and testing</strong></li>
+    <li><strong>Government filings</strong> (Forms 5500, 1099-R, etc.)</li>
+    <li><strong>Easy, guided employee self-enrollment</strong></li>
+    <li><strong>State of the art</strong> employee mobile app and financial planning tools</li>
+</ul>
+
+</div>
+
+<div class="col-xs-12 col-sm-6 secure-calc-wrapper">
+        <div class="text-center">
+          <img alt="Calculator" src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" width="70" height="94" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/benefits/retirement-images/401k-essential/rs_micro401k_icon_calculator.svg" class="mx-auto mb-10 lazy" />
+          <p class="h3-style">SECURE Act Tax Credit Calculator</p>
+        </div>
+        <form id="secure-calc" action="">
+          <label><span># of non-highly compensated employees<sup>i</sup></span> <input type="number" name="NONHIGHINPUTID" id="NONHIGHINPUTID" min="0" max="49" placeholder="0" /></label>
+          <label><span># of highly compensated employees<sup>ii</sup></span> <input type="number" name="HIGHINPUTID" id="HIGHINPUTID" min="0" max="49" placeholder="0" /></label>
+           <p id="error-container" class="strong"></p>
+          <input class="btn btn-xs reg-mb" type="submit" value="Calculate Results" />
+        </form>
+        <div class="secure-calc-results" role="region" aria-live="polite" aria-atomic="true">
+          <div class="secure-calc-fees">
+            <!-- <p><strong>Results:</strong></p> -->
+            <p><span>Monthly Fee</span> <strong id="monthly-fee">$---.--</strong></p>
+            <p><span>Total Participant Fee</span> <strong id="participant-fee">$---.--</strong></p>
+            <p><span>Investment Service Fee<sup>&#8224;</sup></span> <strong id="investment-fee">$---.--</strong></p>
+          </div>
+          <div class="secure-calc-estimates">
+            <!--<p><span>Total Employees:</span> <strong id="employees-amount"></strong></p>-->
+            <p><span>Estimate<sup>&#8224;&#8224;</sup><br /><span class="size10">(Customization may affect rates)</span></span> <strong id="estimate-amount">$---.--</strong></p>
+            <p><span>SECURE Start-up Tax Credit Amount</span> <strong id="credit-amount">$---.--</strong></p>
+            <p><span>Automatic Enrollment Credit</span> <strong id="enroll-credit-amount">$---.--</strong></p>
+            <!--<p><span>Annual Fee</span> <strong id="annual-fee-amount"></strong></p>-->
+            <p><span>Estimated 401(k) Start-up Plan Cost (after credits)</span> <strong id="startup-amount">$---.--</strong></p>
+          </div>
+        </div>
+      </div>
+</div>                </section>
+        </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

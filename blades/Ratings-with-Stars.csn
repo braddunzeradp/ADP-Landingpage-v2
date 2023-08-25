@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Ratings-with-Stars" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--BLADE START - Ratings -->
+  <div class="container-fluid logo-column pt-20 pb-sm-20" >
+    <section class="row center-block ratings inline-text" >
+      <p class="title-brow px-15">ADP's Payroll Software Gets Top Ratings</p>
+      <ul>
+        <li><img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="4.5/5.0 stars" height="38" width="240" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-rating-stars-4-5.svg" class="img-rating lazy" />
+          <p class="rater"> Capterra </p>
+          <p class="text-rating">4.5 / 5 Stars</p>
+        </li>
+        <li><img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="4.5/5.0 stars" height="38" width="240" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-rating-stars-4-5.svg" class="img-rating lazy" />
+          <p class="rater"> Software Advice </p>
+          <p class="text-rating">4.5 / 5 Stars</p>
+        </li>
+        <li><img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="4.6/5.0 stars" height="38" width="240" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-rating-stars-4-6.svg" class="img-rating lazy" />
+          <p class="rater"> G2 </p>
+          <p class="text-rating">4.5 / 5 Stars</p>
+        </li>
+      </ul>
+      <p class="blade-note">Ratings include incentivized reviews and are accurate as of 5/15/2023.</p>
+    </section>
+  </div>
+	<!--BLADE END - Ratings -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

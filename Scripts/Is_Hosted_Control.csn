@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Is Hosted Control" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var pattern = /adp/;
+var locurl = document.location;	
+var exists = pattern.test(locurl);
+if (exists) {
+	$('#temp-footer').addClass('hide-group');
+} else {
+  $('#temp-footer').removeClass('hide-group');
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
