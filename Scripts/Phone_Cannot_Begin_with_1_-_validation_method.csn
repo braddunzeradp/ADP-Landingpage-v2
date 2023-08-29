@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Phone Cannot Begin with 1 - validation method" description="must be placed in the onload function so it is added before the page is fully loaded" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$.validator.addMethod("phonebegin1", function(value, element) {
+				value = value.replace(/\(|\)|\-|\s+/g, "");
+				//console.log(value);
+			return this.optional(element) || /^[2-9]\d+$/.test(value);},"Phone number cannot begin with 1");	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
