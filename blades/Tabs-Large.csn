@@ -15,7 +15,7 @@
             <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-5" aria-controls="tab-group1-5" class="r-tabs-anchor" role="tab" data-toggle="tab"> Accurate Payroll </a> </li>
             <li role="presentation" class="r-tabs-tab r-tabs-state-default" aria-expanded="false"> <a href="#tab-group1-6" aria-controls="tab-group1-6" class="r-tabs-anchor" role="tab" data-toggle="tab"> Flexibility </a> </li>
           </ul>
-        <div class="r-tabs-accordion-title r-tabs-state-active" aria-expanded="false"> <a href="#tab-group1-0" class="r-tabs-anchor"> Manager Insights </a></div>
+        
         <div role="tabpanel" class="r-tabs-panel r-tabs-state-active" id="tab-group1-0" style="display: block;">
             <div class="two-column" >
             <div >
@@ -34,7 +34,7 @@
               </div>
           </div>
           </div>
-        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-1" class="r-tabs-anchor"> Compliance </a></div>
+        
         <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-1" style="display: none;">
             <div class="two-column">
             <div class="">
@@ -47,7 +47,7 @@
               </div>
           </div>
           </div>
-        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-2" class="r-tabs-anchor"> Cost Control </a></div>
+        
         <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-2" style="display: none;">
             <div class="two-column">
             <div class="">
@@ -67,7 +67,7 @@
               </div>
           </div>
           </div>
-        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-3" class="r-tabs-anchor"> Schedules that Work </a></div>
+        
         <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-3" style="display: none;">
             <div class="two-column" id="ADP_c104f842aabb4a5fb2db6fffcf72e0b9" data-source-title="Schedules that Work">
             <div class="">
@@ -88,7 +88,7 @@
               </div>
           </div>
           </div>
-        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-4" class="r-tabs-anchor"> Productivity </a></div>
+       
         <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-4" style="display: none;">
             <div class="two-column" id="ADP_bbbf5186d0cf48e89b34554b9f52e077" data-source-title="Productivity" data-source-id="023fe9e6-6eba-458d-bb48-49f40a5f0a1d">
             <div class="">
@@ -101,7 +101,7 @@
               </div>
           </div>
           </div>
-        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-5" class="r-tabs-anchor"> Accurate Payroll </a></div>
+       
         <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-5" style="display: none;">
             <div class="two-column">
             <div class="">
@@ -113,7 +113,7 @@
               </div>
           </div>
           </div>
-        <div class="r-tabs-accordion-title r-tabs-state-default" aria-expanded="false"><a href="#tab-group1-6" class="r-tabs-anchor"> Flexibility </a></div>
+       
         <div role="tabpanel" class="r-tabs-panel r-tabs-state-default" id="tab-group1-6" style="display: none;">
             <div class="two-column" >
             <div class="">
