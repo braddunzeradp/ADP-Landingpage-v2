@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Revised Eloqua Script" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<script>
+//window.onload = function() {
+	
+document.addEventListener("DOMContentLoaded", function(){	
+    var forms = document.querySelectorAll(".adp-form");
+	$('[id^=elq-FormLastRow]').css('display','none'); 
+
+    forms.forEach(function(form) {
+        var inputField = form.querySelector(".elqFormSubmissionToken");
+        
+        // Replace 'your_url_here' with the actual URL you want to fetch
+        var url = 'https://info.adp.com/e/formsubmittoken?elqSiteID=937';
+        
+        var xhr = new XMLHttpRequest();
+		
+        xhr.open('GET', url, true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                inputField.value = xhr.responseText;
+				
+            } else if (xhr.readyState === 4) {
+                console.error("Error fetching URL:", xhr.statusText);
+            }
+        };
+        xhr.send();
+    });
+});
+</script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
