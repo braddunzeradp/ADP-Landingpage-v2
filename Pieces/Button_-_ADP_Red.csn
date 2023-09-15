@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Button - ADP Red" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<a href="#" class="btn bgclr-adp-red">Button Text Goes Here</a>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
