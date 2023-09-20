@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Eloqua First Party Script with CDO lookup" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '937']);
+(function () {
+    function async_load()
+    { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//images.adpinfo.com/i/elqCfg.min.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }
+
+    if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+    else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+
+//this function will be called by the response if the lookup was successful 	
+function SetElqContent(){
+	 var emailvalue = GetElqContentPersonalizationValue('email1');
+	if (emailvalue.length>0){
+		alert('The email address of ' + emailvalue + ' has already registered for this event');
+		$('#Email').val('');
+	}	
+}	 
+	
+//when focus is removed from this field then look up value of field and if successful return all data
+$('#Email').blur(function() {
+    var regemail = $('#Email').val();
+    push_str = '<email1>' + regemail + '</email1>';
+	_elqQ.push(['elqDataLookup', escape('a715ae3596c94672a183596addc5586c'),push_str]);
+	
+}); 	
+</script>	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
