@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Banned Company-Domain Validation-Part2" description="place in the onload function" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*Validate*/	
+		$("#company").rules("add",{validatecompany:true});
+		$("#Email").rules("add",{validateemail:true});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

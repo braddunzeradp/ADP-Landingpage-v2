@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Drop-Down Reset" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$("#Generic_Answer4,#Generic_Answer5").val($("option:first").val());]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

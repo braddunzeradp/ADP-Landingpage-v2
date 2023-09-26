@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="On Focus " description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$('#Email').on("focus",function() {	
+$("#EmailReg").addClass('hide-group');
+}); ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

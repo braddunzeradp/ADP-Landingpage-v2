@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Drop-Down Generic Full Width" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group full field-interest">
+              <label for="Generic_Answer1" class="label-interest">Do any of these programs sound like a better fit for your practice?</label>
+              <select id="Generic_Answer1" name="Generic_Answer1" class="select-interest" data-val-required="Please select" data-val="true">
+				  <option value="" selected="selected">-- Please Select --</option>
+                <option value="Processing payroll with RUN">Yes, I’m interested in learning more about processing payroll with RUN for Partners</option>
+                <option value="selling my existing payroll client base">Yes, I’m interested in learning more about selling my existing payroll client base</option>
+                <option value="Interested in referring clients">Yes, I’m interested in referring clients to ADP but do not wish to receive revenue</option>
+                <option value="No Interest">Not interested in any of these</option>
+                </select>
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer1" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Highlight Field " description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<style>
+	@keyframes highlight {
+    0% {
+        background: #ffff99; 
+    }
+    100% {
+        background: none;
+    }
+}
+.highlight {
+    animation: highlight 2s;
+}
+	</style>
+	<script type="text/javascript">
+	$("#dd2,#dd3").removeClass("hide-group").addClass("highlight");
+	setTimeout(function(){$("#dd2,#dd3").removeClass('highlight');}, 2000);
+	</script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
