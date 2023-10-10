@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Carousel - Single At a Time" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!--START Testimonial cards -->
+	<div class="container-fluid no-gutter bg-grey-10 overflow-hidden" >
+    <section class="row center-block testimonials quote-card" >
+        <div class="row center-block js-carousel-testimonials">
+        <div class="quote-container">
+            <p class="title-brow">How ADP helps clients like you</p>
+            <p class="quote">Having ACA Health compliance retrieve data directly from ADP has saved a lot of time each month. With our previous vendor, we had to create several files each pay period to spec, and therefore always a manual process. At times, it was cumbersome.</p>
+            <p> <span class="client">Sissy Reese</span> <span class="client-title">HR generalist</span>, <span class="client-company"> Clinical Reference Laboratory </span> </p>
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="446" width="448" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/resource-hub/img-hero-case-study-generic.png" class="client-img lazy" /></div>
+        <div class="quote-container">
+            <p class="title-brow">How ADP helps clients like you</p>
+            <p class="quote">Our compliance is almost at 100 percent for Work Opportunity Tax Credits (WOTC). I’m draining every ounce of juice from that lemon in terms of what the company is receiving back in savings as a result of the tax credit — and that’s an immediate, amazing savings for the company. It’s not often that HR has the opportunity to drive dollars back into the business. ADP helps us deliver the compliance that we’re required to, which helps us do our jobs effectively.</p>
+            <p> <span class="client">Vern Martin</span> <span class="client-title">VP, Corporate HR, Talent, Acquisitions and Operations</span>, <span class="client-company"> Party City </span> </p>
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="446" width="448" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/resource-hub/img-hero-case-study-generic.png" class="client-img lazy" /></div>
+        <div class="quote-container">
+            <p class="title-brow">How ADP helps clients like you</p>
+            <p class="quote">We now have a level of precision and accuracy that we could never have achieved with our manual process. I have tremendous faith that everything’s being done correctly and accurately — and that level of precision and accuracy is so much greater than when we did this manually.</p>
+            <p> <span class="client">Irene Stewart</span> <span class="client-title">Executive Director</span>, <span class="client-company"> Elwyn Inc. </span> </p>
+            <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="" height="446" width="448" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/resource-hub/img-hero-case-study-generic.png" class="client-img lazy" /></div>
+      </div>
+        <p class="link-wrap text-center ext-mt"> <a href="/resources/what-others-say/testimonials.aspx#sort=%40updated%20descending" class="link-arrow" >See all testimonials</a> </p>
+      </section>
+  </div>
+	<!--END Testimonial cards -->]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
