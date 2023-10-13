@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Auto-Scroll" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!-- add this JS to an OnReady container -->
+<!-- $(".js-carousel-autoscroll2").slick({ slidesToShow: 1,slidesToScroll: !0,autoplay: true, autoplaySpeed: 0,dots: true,arrows: false,cssEase: 'linear',variableWidth: true,speed: 5e3, cssEase: "linear" });-->	
+
+	<div class="container-fluid logo-column hide-cta" 
+		 data-source-title="SmartCompliance Awards" >
+    <section class="row center-block awards" >
+        <h2 class="px-gutter ext-mb">Awards and recognition</h2>
+        <div class="row center-block width810 js-carousel-autoscroll2">
+        <div class="col-xs-12 col-sm-3 award-item" >
+            <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="G2" height="800" width="706" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/outsourcing-options/co-employment-peo/g2-best-software-2021-badge-software-products.png" class="card-img lazy" /> </div>
+            <p class="text-rating"> G2 Best Software Products</p>
+            <p>ADP SmartCompliance&reg; <br />
+            2022</p>
+            <p class="btn-wrap"></p>
+          </div>
+        <div class="col-xs-12 col-sm-3 award-item" >
+            <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="Trust Radius ADP Business Priorities 2021" height="304" width="262" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/smartcompliance/trust-radius-adp-business-priorities-2021.png" class="card-img lazy" /> </div>
+            <p class="text-rating"> TrustRadius Top Rated</p>
+            <p>ADP SmartCompliance&reg; <br />
+            2022</p>
+            <p class="btn-wrap"></p>
+          </div>
+        <div class="col-xs-12 col-sm-3 award-item" >
+            <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="Trust Radius Best Customer Support" height="300" width="300" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/smartcompliance/trust-radius-best-customer-support.png" class="card-img lazy" /> </div>
+            <p class="text-rating"> TrustRadius Best Customer Support</p>
+            <p>ADP SmartCompliance&reg; <br />
+            2021</p>
+            <p class="btn-wrap"> </p>
+          </div>
+        <div class="col-xs-12 col-sm-3 award-item" >
+            <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="Trust Radius Best Feature Set" height="300" width="300" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/smartcompliance/trust-radius-best-feature-set.png" class="card-img lazy" /> </div>
+            <p class="text-rating"> TrustRadius Best Feature Set</p>
+            <p>ADP SmartCompliance&reg; <br />
+            2021</p>
+            <p class="btn-wrap"> </p>
+          </div>
+        <div class="col-xs-12 col-sm-3 award-item " >
+            <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="Trust Radius Best Usability Award" height="300" width="300" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/smartcompliance/trust-radius-best-usability-award.png" class="card-img lazy" /> </div>
+            <p class="text-rating"> TrustRadius Best Usability</p>
+            <p>ADP SmartCompliance&reg; <br />
+            2021</p>
+            <p class="btn-wrap"> </p>
+          </div>
+        <div class="col-xs-12 col-sm-3 award-item ">
+            <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="Accounting Today Top New Products award for 2017" height="156" width="135" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/products/smartcompliance/aba20-bronze-winner-tax-credits.png" class="card-img lazy" /> </div>
+            <p class="text-rating"> Bronze Stevie/ABA Award for Achievement in Product Innovation</p>
+            <p>ADP SmartCompliance&reg; 2020</p>
+            <p class="btn-wrap"> </p>
+          </div>
+        <div class="col-xs-12 col-sm-3 award-item ">
+            <div class="img-logo"> <img src="https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx" alt="2018 American Business Awards Gold Stevie Winner" height="161" width="154" data-lazy="https://www.adp.com/-/media/adp/redesign2018/images/what-we-offer/products/smartcompliance/aba19silverwinner.jpg" class="card-img lazy" /> </div>
+            <p class="text-rating"> American Business Awards<br>
+            &mdash;  Payments Solution</p>
+            <p>Wisely Pay by ADP<sup>TM</sup> 2019<br />
+            The Latest Advancement<br />
+            In The Future Of Pay</p>
+            <p class="btn-wrap"> </p>
+          </div>
+      </div>
+      </section>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

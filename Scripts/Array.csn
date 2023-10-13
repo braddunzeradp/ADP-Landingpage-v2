@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Array" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$(document).ready(function() {
+  const emailArray = [
+    "user1@example.com",
+    "user2@example.com",
+    "user3@example.com"
+  ];
+
+  $('#checkButton').click(function() {
+    const emailToCheck = $('#emailInput').val();
+    if (isEmailInArray(emailToCheck, emailArray)) {
+      $('#result').text(`${emailToCheck} is in the array.`);
+    } else {
+      $('#result').text(`${emailToCheck} is not in the array.`);
+    }
+  });
+
+  function isEmailInArray(emailToCheck, emailArray) {
+    return emailArray.includes(emailToCheck);
+  }
+});
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
