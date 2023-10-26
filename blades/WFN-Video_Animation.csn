@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="WFN-Video Animation" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<section class="row center-block two-column">
+<div class="col-xs-12 col-sm-6 img-main">
+<video aria-label="Animation displaying ADP Workforce Now features and dashboards" class="" autoplay="" muted="" loop="" width="620" height="464" poster="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/9723/wfnoverview_blade_videostill.jpg">
+<source data-src="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/9723/wfn_overview_animation_optimized.mp4?rev=9a20ab16a4bf40c6836ef5d05d39c588" type="video/mp4" src="https://www.adp.com/-/media/adp/reskin2022/images/whatweoffer/products/workforcenow/9723/wfn_overview_animation_optimized.mp4?rev=9a20ab16a4bf40c6836ef5d05d39c588">
+</video>
+</div>
+
+<div class="col-xs-12 col-sm-6 text-main">
+<h2>Easier, faster payroll — and a <br class="hidden-xs">
+whole lot more</h2>
+<p class="size20"><strong>ADP Workforce Now</strong> provides value for everyone in your organization. An experience your people will love using every day, ADP Workforce Now gives you access to comprehensive reporting and the analytics you need with relevant, actionable insights. You’ll soon discover why more businesses like yours choose ADP Workforce Now.</p>
+<p><a href="https://www.adp.com/what-we-offer/products/adp-workforce-now/capabilities.aspx" class="link-arrow size20">See Capabilities</a></p>
+</div>                </section>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

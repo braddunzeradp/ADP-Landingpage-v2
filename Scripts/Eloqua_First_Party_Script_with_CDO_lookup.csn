@@ -4,6 +4,8 @@
 <![CDATA[<script type="text/javascript">
 var _elqQ = _elqQ || [];
 _elqQ.push(['elqSetSiteId', '937']);
+_elqQ.push(['elqUseFirstPartyCookie', 'tracking.adpinfo.com']);
+_elqQ.push(['elqTrackPageView']);		
 (function () {
     function async_load()
     { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//images.adpinfo.com/i/elqCfg.min.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }
@@ -11,6 +13,45 @@ _elqQ.push(['elqSetSiteId', '937']);
     if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
     else if (window.attachEvent) window.attachEvent('onload', async_load);
 })();
+	
+function elqGetCookie(name) {
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+        var position = cookies[i].indexOf('=');
+        if (position > 0 && position < cookies[i].length - 1) {
+            var x = cookies[i].substr(0, position);
+            var y = cookies[i].substr(position + 1);
+            x = x.replace(/^\s+|\s+$/g, '');
+            if (x == name)
+            { return unescape(y); }
+
+        }
+    }
+    return '';
+}
+function elqGetCookieSubValue(name, subKey) {
+    var cookieValue = elqGetCookie(name);
+    if (cookieValue == null || cookieValue == '')
+        return '';
+    var cookieSubValue = cookieValue.split('&');
+    for (var i = 0; i < cookieSubValue.length; i++) {
+        var pair = cookieSubValue[i].split('=');
+        if (pair.length > 1) {
+            if (pair[0] == subKey)
+            { return pair[1]; }
+
+        }
+    }
+    return '';
+}
+
+function elqSetCustomerGUID()
+{ 
+    var elqCustomerGuid = elqGetCookieSubValue('ELOQUA', 'GUID'); 
+    if (elqCustomerGuid != null && elqCustomerGuid != '') 
+        $('#elqCustomerGUID').val(elqCustomerGuid);
+    return;
+}	
 
 //this function will be called by the response if the lookup was successful 	
 function SetElqContent(){
