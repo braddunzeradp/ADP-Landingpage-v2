@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Input to Lowercase" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[    <script>
+        // Add an input event listener using jQuery
+        $('#inputField').on('input', function () {
+            // Get the current input value and convert it to lowercase
+            const inputValue = $(this).val().toLowerCase();
+            
+            // Set the input field value to the lowercase value
+            $(this).val(inputValue);
+        });
+    </script>
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
