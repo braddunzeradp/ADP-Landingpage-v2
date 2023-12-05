@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Array-Simple" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var utmarray = ["paid-social","cpm","referral"];
+	var utmmedium = $.urlParam('utm_medium');
+	if(utmarray.includes(utmmedium)){ 
+		$('#signup-blade').removeClass('hide-group'); 
+	}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

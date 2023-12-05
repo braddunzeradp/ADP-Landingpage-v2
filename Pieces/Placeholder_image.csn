@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Placeholder image" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[https://www.adp.com/-/media/adp/redesign2018/images/shared/img-placeholder.ashx]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

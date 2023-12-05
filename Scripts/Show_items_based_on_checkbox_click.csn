@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Show items based on checkbox click" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$('#Generic_Answer4_6').change(function() {
+	if(this.checked) {
+	   $('#other-providers').removeClass('hide-group'); 
+	}
+	else {
+		$('#other-providers').addClass('hide-group');
+		$('#Generic_Answer5').val('');
+	}
+});	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

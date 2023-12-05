@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Set Timeout" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[setTimeout(function() {
+			 var idstatus = $('#sfdcidstatus').val();
+			 if(idstatus.length>0){
+				 //nothing
+			 }
+			 else {
+				 //set the owner id to default because the loid was not good
+				 $('#SFDC_Owner_ID').val('00530000000fAqUAAU');
+				 console.log('id was bad push default');
+			 }
+    		}, 1000);]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

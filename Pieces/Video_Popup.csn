@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Video Popup" description="" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[<a href="https://www.youtube-nocookie.com/embed/GHBhB883N3M?amp;rel=0" title="" class="video-thumb litymodal litymodal" target="_blank"><img height="333" alt="Just a CLICK away" width="600" src="https://www.adp.com/-/media/adp/reskin2022/images/whoweserve/bybusinesssize/149employees/sbshiring_blade_660w_en-vid.jpg" data-lazy="https://www.adp.com/-/media/adp/reskin2022/images/whoweserve/bybusinesssize/149employees/sbshiring_blade_660w_en-vid.jpg" class="img-rounded img-responsive"></a>]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>

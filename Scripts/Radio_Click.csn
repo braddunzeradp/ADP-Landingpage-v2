@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Radio Click" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[//do you know your DM control	
+$('input[name="KnowDM"]').click(function(){
+	var inputValue = $(this).val();
+        if (inputValue == 'Yes'){
+			KnowDM();
+		}
+	else {
+		DontKnowDM();
+	}
+
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -38,7 +38,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script defer src="https://images.adpinfo.com/Web/ADPEmployerServices/{06c98854-fc63-41f0-8e84-8d61a77fa581}_adp-js-main-base.js"></script>
 <script defer src="https://images.adpinfo.com/Web/ADPEmployerServices/{e4d79e0e-305f-4507-b362-e8d8f392cc5a}_js-landingpage-custom.js"></script>
 <script defer src="https://images.adpinfo.com/Web/ADPEmployerServices/{abb231e2-7282-4e3b-9061-a16285a8b25f}_js-form-controls.js"></script>
-<script src="https://images.adpinfo.com/Web/ADPEmployerServices/{99d3f17b-064e-4147-a529-41559a5ff2aa}_privacy-statement-en.js" async></script>	
+<script src="https://images.adpinfo.com/Web/ADPEmployerServices/{99d3f17b-064e-4147-a529-41559a5ff2aa}_privacy-statement-en.js"></script>	
 <script src="https://images.adpinfo.com/Web/ADPEmployerServices/{53f38163-c37e-40b2-86e8-61e75c1719d5}_js-landing-tags.js"></script> 	
 	
 	
@@ -318,7 +318,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="submit-msg" class="container-fluid bg-grey-10 hide-group">
     <section class="row center-block width890">
         <h2 class="text-center">We are looking forward to talking to you.</h2>
-        <p class="text-center">Your request has been received and one of our team will be reaching out to you momentarily.</p>
+        <p class="text-center">Your request has been received and one of our team will be reaching out to you.</p>
       </section>
   	</div>
 <!-- /////////////////// START Form Success Message goes here //////////////////// -->	
@@ -340,7 +340,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!--//////////// START Eloqua Footer Include -->
 <span elqid="6951" elqtype="Section" class="remove-absolute" style="display: block"></span>
 <!--CAN EN --><!--<span elqid="6981" elqtype="Section" class="remove-absolute" style="display: block"></span>-->
-<!--CAN FR --><!--<span elqid="6982" elqtype="Section" class="remove-absolute" style="display: block"></span>-->	
+<!--CAN FR --><!--<span elqid="6982" elqtype="Section" class="remove-absolute" style="display: block"></span>-->
+<!--ADPIA--><!--<span elqid="7514" elqtype="Section" class="remove-absolute" style="display: block"></span>-->	
 	<!--/////////// END Eloqua Footer Include -->
 	
 	

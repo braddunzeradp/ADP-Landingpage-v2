@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="French Quote Marks" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<style>
+.quote::before {
+    content: "\00AB\00A0"!important;
+}
+
+.quote::after {
+    content: "\00A0\00BB"!important;
+}	
+</style>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

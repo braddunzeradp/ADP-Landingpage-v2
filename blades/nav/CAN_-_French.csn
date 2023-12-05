@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CAN - French" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[    <div class="container bg-grey-10">
+      <nav class="py-5 px-25" align="right"> <a href="https://info.adp.com/cpa-en-679403"> <img  alt="Globe Icon" src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7Bc48c3f9d-93f4-48ee-bbe7-cc9955b54f33%7D_globe_icon_107px.png" style="width: 20px;margin-right: 5px;"> <span class="size16 taubsans-regular" style="vertical-align: middle">English</span> </a> </nav>
+    </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

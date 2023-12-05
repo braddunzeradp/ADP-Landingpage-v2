@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Video Link" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[https://www.youtube.com/embed/Obm1ncYzlXg?autoplay=1&modestbranding=1&&mute=0]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

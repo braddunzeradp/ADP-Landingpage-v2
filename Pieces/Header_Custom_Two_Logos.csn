@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Header Custom Two Logos" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<header class="global-nav">
+<div class="nav-wrap">
+<a class="skip" href="#main-content">Skip to main content</a>
+<div class="nav-main row py-10">
+<div class="col-xs-6"> <a href="https://www.adp.com" class="logo">
+<img alt="ADP logo" src="https://www.adp.com/-/media/adp/redesign2018/ui/logo-adp-fy19.svg" class="skiplazy" >
+</a></div>
+<div class="col-xs-6" style="text-align: right">
+<img style="height: 40px;" alt="Alpine logo" src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7Bbfad65db-9b95-4223-befa-8a2da441bf5e%7D_alpine-web.png" class="skiplazy" >
+</div>
+
+</div>
+</div>
+</header>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

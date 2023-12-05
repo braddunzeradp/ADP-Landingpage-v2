@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Checkbox Require one checkbox each question" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$('#checkbox-btn').on('click', function() {
+    var checkboxGroups = $('.c-group');
+    var atLeastOneChecked = true;
+    checkboxGroups.each(function() {
+      var checkboxes = $(this).find('input[type="checkbox"]');
+      var checked = checkboxes.toArray().some(function(checkbox) {
+        return $(checkbox).prop('checked');
+      });
+      if (!checked) {
+        atLeastOneChecked = false;
+        return false; // Exit the loop early
+      }
+    });
+
+    var validationMessage = $('#validationMessage');
+    if (atLeastOneChecked) {
+		//we can move on
+		$('#checkbox-group').addClass('hide-group');
+		$('#form-stage').val('first');
+		$('html, body').animate({scrollTop: $("#form-top").offset().top}, 1000);
+		$('#form-fields').removeClass('hide-group');
+    } else {
+      $('#validationMessage').removeClass('d-none');
+    }
+});	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Checkbox - only one answer" description="input should have .radiobox class and all input should be wrapped in div with .c-group class" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[//manage the two checkbox questions to allow only one choice	
+$(document).on('change', '.c-group .radiobox', function() {
+  // Uncheck all checkboxes in the current group
+  $(this).closest('.c-group').find('.radiobox').prop('checked', false);
+  // Check the clicked checkbox
+  $(this).prop('checked', true);
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
