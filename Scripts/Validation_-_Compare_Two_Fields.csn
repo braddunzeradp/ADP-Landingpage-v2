@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Validation - Compare Two Fields" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$("#Email").rules("add",{notEqual: "#Generic_Answer8"});	
+		
+		
+jQuery.validator.addMethod("notEqual", function(value, element, param) {
+ return this.optional(element) || value != $(param).val();
+}, "Please enter a valid client referral email address");
+
+
+		]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

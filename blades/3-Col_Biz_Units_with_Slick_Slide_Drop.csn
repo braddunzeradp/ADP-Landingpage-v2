@@ -1,7 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="3-Col Biz Units with Slick Slide Drop" description="" type="wrap">
+<snippet name="3-Col Biz Units with Slick Slide Drop" description="added CSS on 12-5-23 to control on mobile. something was lost in movement from source page" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[<!--START 3-Col Biz Unit Slick Slide -->
+<![CDATA[<style>
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1200px) {
+.draggable>div {display: block!important;}
+.slick-slide {width:33%!important;margin-top:10px;}	
+.slick-track {width:100%!important;}
+}
+
+@media only screen and (max-width: 800px) {
+.card-listing.info-btns .info-toggle .card-btns {
+overflow: unset ;
+max-height: none;
+-webkit-mask-image: none;
+mask-image: none;	
+}
+.slick-slide {width:100%!important;}	
+.toggle-cta {display: none!important;}	
+
+}		
+
+</style>
+
+<!--START 3-Col Biz Unit Slick Slide -->
     <div class="container-fluid no-gutter bg-blue-10 overflow-hidden">
     <section class="row center-block text-center">
         <h2 class="blade-title ext-mb">No matter your business size, we've got you covered</h2>

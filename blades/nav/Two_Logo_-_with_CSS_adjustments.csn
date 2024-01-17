@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Two Logo - with CSS adjustments" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<style>
+@media only screen and (max-width: 768px) {
+	.logo img {height: 30px!important;}
+	.logo {top:0!important;padding: 0!important;left:10px!important;}
+	}		
+</style>
+<header class="global-nav">
+<div class="nav-wrap">
+<a class="skip" href="#main-content">Skip to main content</a>
+<div class="nav-main row py-10">
+<div class="col-sm-6 col-xs-2"> <a href="https://www.adp.com" class="logo">
+<img style="height: 40px;" alt="ADP logo" src="https://www.adp.com/-/media/adp/redesign2018/ui/logo-adp-fy19.svg" class="skiplazy" >
+</a></div>
+<div class="col-sm-6 col-xs-10" style="text-align: right">
+<img style="height: 30px;" alt="First Canadian GPO logo" src="https://images.adpinfo.com/EloquaImages/clients/ADPEmployerServices/%7B985689bb-1082-4436-8dc7-44592eed23fc%7D_First_Canadian_GPO_Logo.png" class="skiplazy" >
+</div>
+</div>
+</div>
+</header>
+<!-- jump to from short cut tab -->	]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

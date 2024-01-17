@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Phone Mask" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$("#Generic_Answer6").mask("(000) 000-0000");]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

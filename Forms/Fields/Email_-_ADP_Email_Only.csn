@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Email - ADP Email Only" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="form-group field-email mr-sm">
+              <label for="DM_Email" class="label-email">DM Email</label>
+              <input id="DM_Email" name="DM_Email" class="input-email" type="email" autocomplete="email" value=""   maxlength="255"   placeholder=""  data-val-required="Please enter your Email." data-val-regex="Please enter a valid ADP email address." data-val-regex-pattern="^.*adp\.com$" data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span> 
+			  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

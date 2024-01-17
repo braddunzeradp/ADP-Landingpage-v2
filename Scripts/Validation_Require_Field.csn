@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="Validation Require Field" description="" type="wrap">
-<insertText location="beforeSelection">
-<![CDATA[/* Require specifc input field to be required */	
-$("#Generic_Answer5").rules("add",{required: true});	]]>
-</insertText>
-<insertText location="afterSelection"><![CDATA[]]>
-</insertText>
-</snippet>
