@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Bullets" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<ul class="bullets">
+    <li>Automated online payroll that helps avoid costly errors</li>
+    <li>Payroll taxes calculated and paid on your behalf</li>
+    <li>Federal, state, and local compliance support</li>
+    <li>Simple integration with time-tracking and HR</li>
+    <li>Easy-to-use self-service app for employees</li>
+    <li>Expert support when you need it</li>
+</ul>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

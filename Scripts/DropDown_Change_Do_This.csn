@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="DropDown Change Do This" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$('#Gift').change( function() {
+      if ( this.value == 'Charitable Donation')
+      {
+        $("#charityselector").show();
+        $("#charityinfo").show();  
+      }
+      else
+      {
+        $("#charityselector").hide();
+          $("#charityinfo").hide(); 
+      }]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
