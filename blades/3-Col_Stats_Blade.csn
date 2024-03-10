@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="3-Col Stats Blade" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="container-fluid no-gutter bg-blue-10">
+    <section class="row center-block text-center px-gutter">
+      <h2 class="blade-title mb-40">Faster, smarter, easier small business payroll and HR</h2>
+      <div class="row center-block stats-wrap">
+        <div class="col-xs-12 col-sm-4 stats-col" >
+          <div class="card">
+            <div class="card-body">
+              <p class="stat"><span class="js-count">93</span>%</p>
+              <p>of customers say ADP has made their job easier</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 stats-col " >
+          <div class="card">
+            <div class="card-body">
+              <p class="stat"><span class="js-count">95</span>%</p>
+              <p>of customers say ADP helps their company comply with payroll tax laws and regulations</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 stats-col " >
+          <div class="card">
+            <div class="card-body">
+              <p class="stat"><span class="js-count">92</span>%</p>
+              <p>of customers tell us <a href="https://www.adp.com/what-we-offer/payroll/payroll-for-1-49-employees/switching-to-adp.aspx">switching to ADP is easy</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="mt-30">Internal survey of 1,776 RUN Powered by ADP® customers in 2022</p>
+    </section>
+  </div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

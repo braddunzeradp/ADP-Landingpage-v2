@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Range of EE on keyup" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var ranges = {
+
+  'SFDC_Owner_ID':{
+  
+    '0050b0000046wkb':{min:0,max:49},
+    '00533000004IWZy':{min:50,max:999},
+    '00540000001PlDA':{ min:1000, max:99999999}}
+  };
+
+$('#Number_of_Employees').keyup(findRange);
+
+function findRange(){
+    var num = parseInt( $('#Number_of_Employees').val() );
+    $('#SFDC_Owner_ID').val('');
+    for(field in ranges)
+    {
+      for(rng in ranges[field]){
+        if (num >= ranges[field][rng].min && num <= ranges[field][rng].max)
+        {
+          $('#'+field).val(rng);
+        }
+      }
+    }
+  }
+
+
+var ranges2 = {
+
+  'BU':
+  {  
+    'Small Business Services':{min:0,max:49},
+    'Major Account Services':{min:50,max:999},
+    'National Account Services':{min:1000,max:99999999}}
+  };
+
+  $('#Number_of_Employees').keyup(findRange);
+
+function findRange(){
+    var num2 = parseInt( $('#Number_of_Employees').val() );
+    $('#BU').val('');
+  
+    for(field in ranges2)
+    {
+      for(rng in ranges2[field]){
+        if (num2 >= ranges2[field][rng].min && num2 <= ranges2[field][rng].max)
+        {
+          $('#'+field).val(rng);
+        }
+      }
+    }
+  }]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

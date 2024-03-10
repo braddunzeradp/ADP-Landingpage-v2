@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Text Link w/Arrow Animation" description="">
+<insertText location="beforeSelection">
+<![CDATA[<p class="link-wrap text-center ext-mt"> <a href="#" class="link-arrow">Text link with arrow</a> </p>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

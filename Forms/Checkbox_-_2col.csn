@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="Checkbox - 2col" description="" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<style>
+			  .checkbox {column-count: 2;column-width: 50%;}
+.checkbox li {margin-bottom: 10px;}
+.label-contact {font-size:18px;}
+			  </style>
+			  
+			  <div  class="form-group full field-contact mt-30" style="display: flex;">
+			<fieldset class="c-group" style="width: 100%;">
+   			 <legend class="size20 mb-20 taubsans-medium">I would like to learn more about these strategic solutions <span class="size16">(check all that apply)</span></legend>
+				<ul class="checkbox">
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13" name="Generic_Answer13" class="input-contact checkbox-group" value="WorkersComp"  data-val-required="The Value field is required." data-val="true"> 
+                  Workers’ Comp </label></li>
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13_1" name="Generic_Answer13" class="input-contact checkbox-group" value="GroupHealth"  data-val-required="The Value field is required." data-val="true"> 
+                  Group Health </label></li>
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13_2" name="Generic_Answer13" class="input-contact checkbox-group" value="Retirement"  data-val-required="The Value field is required." data-val="true"> 
+                  Retirement </label></li>	
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13_3" name="Generic_Answer13" class="input-contact checkbox-group" value="HROutsourcing"  data-val-required="The Value field is required." data-val="true"> 
+                  HR Outsourcing </label></li>	
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13_4" name="Generic_Answer13" class="input-contact checkbox-group" value="RDTaxCredit"  data-val-required="The Value field is required." data-val="true"> 
+                  R&amp;D Tax Credit </label></li>	
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13_5" name="Generic_Answer13" class="input-contact checkbox-group" value="PayrollID"  data-val-required="The Value field is required." data-val="true"> 
+                  Payroll ID Registration Services </label></li>
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13_6" name="Generic_Answer13" class="input-contact checkbox-group" value="GlobalizationPartners"  data-val-required="The Value field is required." data-val="true"> 
+                  Globalization Partners </label></li>
+				<li><label class="label-contact">
+                  <input type="checkbox" id="Generic_Answer13_7" name="Generic_Answer13" class="input-contact checkbox-group" value="ClientBase"  data-val-required="The Value field is required." data-val="true"> 
+                  Value my payroll client base </label></li>	
+				
+				</ul>
+				              
+				
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer13" data-valmsg-replace="true"></span> 
+				  </fieldset>
+			  </div>
+			 
+			 
+			    <div style="display: flex;width: 100%;justify-content: center;">
+			  <div class="form-group full field-generic">
+              <label for="Generic_Answer20" class="label-generic size20 taubsans-medium">Best day &amp; time for a quick follow-up <span class="size16">(we will be respectful of your time)</span></label>
+              <input id="Generic_Answer20" name="Generic_Answer20" class="input-generic" type="text" maxlength="255" data-val-required="This field is required" data-val="true" />
+              <span class="field-validation-valid" data-valmsg-for="Generic_Answer20" data-valmsg-replace="true"></span>
+			  </div>	
+            </div>
+
+<script>
+$(document).ready(function() {
+$('.limitThree').on('change', function(){
+    var noChecked = 0;
+    $.each($('.limitThree'), function(){
+        if($(this).is(':checked')){
+            noChecked++;    
+        }
+    });
+    if(noChecked >= 3){
+        $.each($('.limitThree'), function(){
+            if($(this).not(':checked').length == 1){
+                $(this).attr('disabled','disabled');    
+            }
+        });
+    }else{
+        $('.limitThree').removeAttr('disabled');    
+    };
+});
+</script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
