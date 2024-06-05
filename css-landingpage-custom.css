@@ -1,0 +1,217 @@
+/*CSS below is custom to make changes or overrides for landing pages */
+
+/*FORMS*/
+/*added to better control the comply text and checkbox added to forms*/
+.form-group .label-comply span {text-indent: 0!important;display: inline-block;}
+/*control the width of the form fields with side form*/
+.side-form .form-main .form-group {width:100%;}
+/*use this on number and zipcode to combine into one area*/
+.mr-xxs{margin-right:2%}
+.sidebar .form-group {width:100%!important}
+.form-group.field-comply label {max-width:100%!important}
+
+/* start css for multi-step-form */
+/* add class of one-col-form */
+.one-col-form.quote-form .form-group:not(.full){width:100%}
+.one-col-form.quote-form:not(.sales) .form-wrap {max-width:400px;}
+.tab {display: none;width: 100%;margin: 0px auto;}
+.current {display: block;}
+.previous {background-color: #bbbbbb;}
+.steps {position: relative;display: flex;justify-content: space-between;width: 200px;top: -9px;}
+.step { width: 20px;height: 20px;background: #fff;border: 2px solid #999;border-radius: 50%;transition: background 1s;}
+.step.active {background-color: #050d3a;border: 2px solid #050d3a;}
+.step.finish {background-color: #050d3a;}
+.steps-bar {position: absolute;width: 200px;height: 2px;border-bottom: 2px solid #999;}
+.previous.btn, .next.btn {min-width: 150px;}
+/* end css for multi-step-form */
+
+/*Buttons*/
+.btn.btn-xss,.btn2.btn-xss,.btn2:visited.btn-xss,.btn:visited.btn-xss {
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 4px 25px;
+}
+
+.btn.bgclr-adp-red:hover {background-color:#ed2a1f !important;}
+
+/*Color Classes*/
+.clr-adp-red{color:#d0271d !important;}
+.bgclr-adp-red{background-color:#d0271d !important;}
+.clr-warm-red{color:#f15c22 !important;}
+.bgclr-warm-red{background-color:#f15c22 !important;}
+.clr-rose{color:#f2635d !important;}
+.bgclr-rose{background-color:#f2635d !important;}
+.clr-purple{color:#7967ae !important;}
+.bgclr-purple{background-color:#7967ae !important;}
+.clr-blue{color:#26328c !important;}
+.bgclr-blue{background-color:#26328c !important;}
+.clr-navy{color:#121c4e !important;}
+.bgclr-navy{background-color:#121c4e !important;}
+.clr-sand{color:#f9ac84 !important;}
+.bgclr-sand{background-color:#f9ac84 !important;}
+.clr-blush{color:#fac8bf !important;}
+.bgclr-blush{background-color:#fac8bf !important;}
+.clr-tan{color:#efdfd1 !important;}
+.bgclr-tan{background-color:#efdfd1 !important;}
+.clr-brown{color:#7d3520 !important;}
+.bgclr-brown{background-color:#7d3520 !important;}
+.clr-black{color:#222222 !important;}
+.bgclr-black{background-color:#222222 !important;}
+.clr-cool-grey{color:#54565a !important;}
+.bgclr-cool-grey{background-color:#54565a !important;}
+.clr-white{color:#ffffff !important;}
+.bgclr-white{background-color:#ffffff !important;}
+.clr-link-blue{color:#2f6cfe}
+.bgclr-link-blue{background-color:#2f6cfe}
+.clr-hover-blue{color:#0041dc !important;}
+.bgclr-hover-blue{background-color:#0041dc !important;}
+.clr-dark-blue{color:#050d3a !important;}
+.bgclr-dark-blue{background-color:#050d3a !important;}
+.clr-light-grey{color:#a3a6ba !important;}
+.bgclr-light-grey{background-color:#a3a6ba !important;}
+.clr-green{color:#529800 !important;}
+.bgclr-green{background-color:#529800 !important;}
+.clr-yellow{color:#f6b333 !important;}
+.bgclr-yellow{background-color:#f6b333 !important;}
+.clr-red-error{color:#dc1e34 !important;}
+.bgclr-red-error{background-color:#dc1e34 !important;}
+.clr-light-grey2{color:#f7f6f4}
+.bgclr-light-grey2{background-color:#f7f6f4}
+.clr-light-blue{color:#eef4fe !important;}
+.bgclr-light-blue{background-color:#eef4fe !important;}
+
+/*Modal Adjustments*/
+.modal .bg-grey-10 .close-icn {background-image: url(https://www.adp.com/-/media/adp2022/ui/icn-close-ui.svg);}
+.modal.two-col .one-col-override {width:100%!important;} 
+
+/*Solutions table*/
+table.solution-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto 20px;
+    }
+    table.solution-table.has-accordion tbody { 
+    display: none; 
+    }
+     .has-accordion thead tr th.toggle {
+     width: 60%;
+     padding: 0;
+     cursor: pointer;
+     }
+     .has-accordion thead tr th.toggle p {
+     padding: 10px 15px 10px 40px;
+     position: relative;
+     display: block;
+     cursor: pointer;
+     margin: 0;
+     }
+    .has-accordion thead tr th.toggle p::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 21px;
+    height: 21px;
+    background: url(/-/media/adp2018/ui/icn-expand.svg) center center/contain no-repeat;
+    }
+    .has-accordion thead.open tr th.toggle p::before {
+    background-image:url(/-/media/adp2018/ui/icn-contract-hover.svg)
+    }
+    table.solution-table, table.solution-table thead tr th {
+    border-top: 1px solid #d4d4d4;
+    font-size: 17px;
+    }
+    table.solution-table, table.solution-table thead.last {
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 16px;
+    }
+    table.solution-table, table.solution-table thead.last tr th:first-child {
+    padding-left: 40px;
+    }
+    table.solution-table thead tr th {
+    background-color: #eee;
+    padding: 10px 15px;
+    text-align: left;
+    vertical-align: middle;
+    }
+    table.solution-table thead tr th p {
+    padding: 10px 0;
+    vertical-align: middle;
+    margin-bottom: 0;
+    }
+    table.solution-table tbody tr td {
+    /*font-size: 17px;*/
+    padding: 15px;
+    vertical-align: middle;
+    }
+    table.solution-table tbody tr td:first-child {
+    padding-left: 15px;
+    }
+    table.solution-table tbody tr {
+     border-top: 1px solid #d4d4d4;
+    vertical-align: middle;
+    }
+    table.solution-table tr th.limited {
+    font-size: 17px;
+    font-family: TaubSans_bold, Arial, sans-serif;
+    text-align: center;
+    }
+    table.solution-table tr td.alphanum{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    }
+    table.solution-table tr td.text{
+    font-size: 17px;
+    line-height: 21px;
+    color: #212222;
+    text-align: center;
+    }
+    table.solution-table tr td .super {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: text-top;
+    }
+   
+   /* For logos above table */
+   table.solution-table, table.solution-table thead tr th.logo {
+    border: none;
+    }
+   table.solution-table thead tr th.logo {
+   background-color: #fff;
+   padding: 10px 15px 20px;
+   min-width: 120px;
+   color:#8b8b8b; 
+   text-align:center;
+    vertical-align:middle;
+    font-size: 22px;
+    line-height: 24px;
+    }
+table.solution-table thead tr th.logo sup {
+    font-size: 12px;
+    vertical-align: middle; 
+    position: relative; top: -0.5em;
+    padding-left: 3px;
+}
+    @media (max-width: 767px) {
+       table.solution-table thead tr th.logo {
+         font-size: 14px;
+         line-height: 16.5px;
+        min-width: 70px;
+        }
+        table.solution-table thead tr th.logo sup {
+          font-size: 9px;
+        }
+      }
+    /* End For logos above table */
+	
+	/* Start Font Adjustments */
+	
+	h1 sup, h2 sup {font-size:40%; top:-1em;}
+	
+	
+	/* End Font Adjustments */
+	
+	

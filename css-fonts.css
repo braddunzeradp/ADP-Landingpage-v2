@@ -1,0 +1,12 @@
+@font-face{font-family:TaubSans_regular;src:url(https://www.adp.com/static/project/adp/fonts/TaubSans-Regular.woff2) format('woff2'),url(https://www.adp.com/static/project/adp/fonts/TaubSans-Regular.woff);font-weight:400;font-style:normal}@font-face{font-family:TaubSans_italic;src:url(https://www.adp.com/static/project/adp/fonts/TaubSans-RegularItalic.woff2) format('woff2'),url(https://www.adp.com/static/project/adp/fonts/TaubSans-RegularItalic.woff) format('woff');font-weight:400;font-style:normal}@font-face{font-family:TaubSans_medium;src:url(https://www.adp.com/static/project/adp/fonts/TaubSans-Medium.woff2) format('woff2'),url(https://www.adp.com/static/project/adp/fonts/TaubSans-Medium.woff) format('woff');font-weight:400;font-style:normal}@font-face{font-family:TaubSans_mediumitalic;src:url(https://www.adp.com/static/project/adp/fonts/TaubSans-MediumItalic.woff2) format('woff2'),url(https://www.adp.com/static/project/adp/fonts/TaubSans-MediumItalic.woff) format('woff');font-weight:400;font-style:normal}@font-face{font-family:TaubSans_bold;src:url(https://www.adp.com/static/project/adp/fonts/TaubSans-Bold.woff2) format('woff2'),url(https://www.adp.com/static/project/adp/fonts/TaubSans-Bold.woff) format('woff');font-weight:400;font-style:normal}@font-face{font-family:TaubSans_bolditalic;src:url(https://www.adp.com/static/project/adp/fonts/TaubSans-BoldItalic.woff2) format('woff2'),url(https://www.adp.com/static/project/adp/fonts/TaubSans-BoldItalic.woff) format('woff');font-weight:400;font-style:normal}
+body {
+    font-family: TaubSans_regular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    color: #212536;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+}
